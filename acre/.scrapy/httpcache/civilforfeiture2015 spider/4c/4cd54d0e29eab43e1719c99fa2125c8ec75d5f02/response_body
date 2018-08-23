@@ -1,0 +1,375 @@
+<HTML>
+<HEAD>
+<TITLE> - Not an Official Document</TITLE>
+<SCRIPT TYPE="text/javascript" LANGUAGE="javascript">
+
+<!-- PreLoad Wait - Script -->
+<!-- This script and more from http://www.rainbow.arch.scriptmania.com 
+
+function waitPreloadPage() { //DOM
+if (document.getElementById){
+document.getElementById('prepage').style.visibility='hidden';
+}else{
+if (document.layers){ //NS4
+document.prepage.visibility = 'hidden';
+}
+else { //IE4
+document.all.prepage.style.visibility = 'hidden';
+}
+}
+}
+// End -->
+</SCRIPT>
+</HEAD>
+<FONT FACE="Arial" SIZE="3">
+<BODY BACKGROUND="/images/whitenod.gif">
+<base target="_top">
+<A NAME="selection">
+<b><u>Report Selection Criteria</u></b><br><br>
+<TABLE >
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Case ID:</b><td>&nbsp;26CV-15-127<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><FONT COLOR="#000000" FACE="Arial" SIZE="4"><b></b></font><td>
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Citation No:</b><td>&nbsp;
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Docket Start Date:</b><td>&nbsp;
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Docket Ending Date:</b><td>&nbsp;
+</TABLE>
+<A NAME="description">
+<br><br><b><u>Case Description  </u></b><br><br>
+<TABLE >
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Case ID:</b><td>&nbsp;26CV-15-127
+ - STATE OF ARKANSAS V CHAD MATHEWS
+<i>-BENCH TRIAL</i><br>
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Filing Date:</b><td>&nbsp;Monday   , March     02nd, 2015
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Court:</b>
+<td>&nbsp;26 - GARLAND
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Location:</b>
+<td>&nbsp;CI - CIRCUIT
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Type:</b>
+<td>&nbsp;CF - PROPERTY FORFEITURE
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Status:</b>
+<td>&nbsp;CLOSED - CASE CLOSED
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Images:</b>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+</TABLE>
+&nbsp;&nbsp;
+<A NAME="events">
+<BR>
+<BR>
+<B><u>Case Event Schedule</u></B>
+<BR>
+<BR>
+<I>No case events were found.</I>
+<A NAME="parties">
+<BR>
+<BR>
+<B><u>Case Parties</u></B>
+<BR>
+<BR>
+<TABLE  NOWRAP border width=100% cellspacing=1 cellpadding=4>
+<TR>
+<TH ALIGN="right">Seq #</TH>
+<TH ALIGN="right">Assoc</TH>
+<TH ALIGN="left">End Date</TH>
+<TH ALIGN="left">Type</TH>
+<TH ALIGN="left">ID</TH>
+<TH ALIGN="left">Name</TH>
+</TR>
+<TR VALIGN="top">
+<TD ALIGN="right">1</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>JUDGE</TD>
+<TD><A HREF="ck_public_qry_cpty.cp_personcase_details_idx?backto=P&soundex_ind=&partial_ind=&last_name=&first_name=&middle_name=&begin_date=&end_date=&case_type=&id_code=C18ED01">7965450</A></TD>
+<TD><B>18TH EAST CIRCUIT DIVISION I </B></TD>
+<TR ALIGN="left" VALIGN="top">
+<TD><B> </B></TD>
+<td COLSPAN=2>
+</td>
+<TD><B> </B></TD>
+<TD ALIGN="right"><B>Aliases:</B></TD>
+<td COLSPAN=2>
+
+WRIGHT
+</TR>
+<TR>
+<TD COLSPAN="6">&nbsp;</TD>
+</TR>
+<TR VALIGN="top">
+<TD ALIGN="right">3</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>DEFENDANT</TD>
+<TD><A HREF="ck_public_qry_cpty.cp_personcase_details_idx?backto=P&soundex_ind=&partial_ind=&last_name=&first_name=&middle_name=&begin_date=&end_date=&case_type=&id_code=@682409">13280236</A></TD>
+<TD><B>MATHEWS, CHAD </B></TD>
+<TR ALIGN="left" VALIGN="top">
+<TD><B> </B></TD>
+<td COLSPAN=2>
+</td>
+<TD><B> </B></TD>
+<TD ALIGN="right"><B>Aliases:</B></TD>
+<td COLSPAN=2>
+<I>none</I>
+</TR>
+<TR>
+<TD COLSPAN="6">&nbsp;</TD>
+</TR>
+<TR VALIGN="top">
+<TD ALIGN="right">2</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>PROSECUTING ATTORNEY</TD>
+<TD><A HREF="ck_public_qry_cpty.cp_personcase_details_idx?backto=P&soundex_ind=&partial_ind=&last_name=&first_name=&middle_name=&begin_date=&end_date=&case_type=&id_code=PA18E">8227618</A></TD>
+<TD><B>STATE OF ARKANSAS </B></TD>
+<TR ALIGN="left" VALIGN="top">
+<TD><B> </B></TD>
+<td COLSPAN=2>
+</td>
+<TD><B> </B></TD>
+<TD ALIGN="right"><B>Aliases:</B></TD>
+<td COLSPAN=2>
+
+PROSECUTING ATTORNEY'S OFFICE
+</TR>
+<TR>
+<TD COLSPAN="6">&nbsp;</TD>
+</TR>
+</TABLE>
+<A NAME="violations">
+<br><br><b><u>Violations</u></b><br><br>
+<A NAME="sentences">
+<br><br><br><br><br><br><b><u>Sentence</u></b><br><br>
+No Sentence Info Found.<br><br><br>
+<A NAME="milestone">
+<BR>
+<BR>
+<B><u>Milestone Tracks</u></B>
+<BR>
+<BR>
+</TABLE>
+<I>No Milestone Tracks found.</I>
+<A NAME="dockets">
+<BR>
+<BR>
+<B><u>Docket Entries</u></B>
+<BR>
+<BR>
+<TABLE  NOWRAP border width=100% cellspacing=1 cellpadding=4>
+<TR>
+<TH ALIGN="left">Filing Date</TH>
+<TH ALIGN="left">Description</TH>
+<TH ALIGN="left">Name</TH>
+<TH ALIGN="right">Monetary</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>03/02/2015<BR>10:41 AM</TD>
+<TD>MOF ORIGINAL</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3"><I>none.</I></TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD>No Images</TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>03/02/2015<BR>10:41 AM</TD>
+<TD>AOC COVERSHEET CIVIL</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3"><I>none.</I></TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=17C4970431134AA09D2551A82D3DD301AFFBE0AE867CB4100FE86DC29B42F282C7806CC38B124C145AB5F9190F0DADA565FFE491F4621878AC44AFA973F2D070&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">COVER SHEET</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>03/02/2015<BR>10:41 AM</TD>
+<TD>COMPLAINT/PETITION FILED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3"><I>none.</I></TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=01C8FDE938C93854AC84606AD801B0882909215CED07DA3B8B7AFDDF57630966216DAD396066164395709868602E3A876BEFB8378E5F8388E8215FB4EBB861F0&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">COMPLAINT</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>03/02/2015<BR>10:41 AM</TD>
+<TD>SUMMONS - FILER PREPARED</TD>
+<TD>MATHEWS, CHAD </TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3"><I>none.</I></TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=E2D01563FD13454491E7BFF4BAF4F63255F4586C10341DCB3187B6DC726289BA4C5A23981CC842711183329101963E2C693FA9982F28F7B6399CE24AD2C30122&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">SUMMONS</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>03/25/2015<BR>09:17 AM</TD>
+<TD>SUMMONS SERVED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3"><I>none.</I></TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=FCB5DED7C708168366811B64CBDCC59DF10DECFCFC7044D4E79C751CBD8E96B20AB4F5512B321C812E386687E4B32A80ECD1B8711D5CA1E5E07A43A1170BE35E&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">PROOF OF SERVICE</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>04/13/2015<BR>12:50 PM</TD>
+<TD>MOTION DEFAULT JUDGMENT</TD>
+<TD>STATE OF ARKANSAS,  </TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3"><I>none.</I></TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=A1AC735BD39E05FA6170D4D603B6D7FBF9A42C81AC5B2F946FF09FB953B3D2AC0EC4B9FCD3B5DEF4B6CA6DD233D671AD8086C4309B22557E07101B9B43BA4B81&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">MOTION</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>04/14/2015<BR>12:45 PM</TD>
+<TD>JUDGMENT-DEFAULT</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3"><I>none.</I></TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=6B55F0374C7437B22B3A09DE678C89C6DBC40FC1AA066B4BB572334874E2F6012239294DEDEC964D1258E30EE1E1CC39D68C443C180C28F4142F81F7BD5C6E29&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">JUDGMENT</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>04/14/2015<BR>12:45 PM</TD>
+<TD>MOD DEFAULT JUDGMENT</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">TRIAL TYPE: B</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=34538FD70582375DEDAD0536A0EF6CABFB9F2DE034309E15FD5483A7D3E14FFB497AA599900CB3E092BE4792ED87DF98FC495B1630A123D587B43673A4FF99D4&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">COVER SHEET</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>04/14/2015<BR>12:45 PM</TD>
+<TD>CASE CLOSED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3"><I>none.</I></TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD>No Images</TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+</TABLE>
+</TABLE>
+<BR>
+<BR>
+<BR>
+<BR>
+<TABLE  NOWRAP border width=100% cellspacing=1 cellpadding=4>
+</body></html>

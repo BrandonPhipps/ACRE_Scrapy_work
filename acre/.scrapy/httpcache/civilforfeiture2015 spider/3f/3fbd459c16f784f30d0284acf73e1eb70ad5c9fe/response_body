@@ -1,0 +1,1047 @@
+<HTML>
+<HEAD>
+<TITLE> - Not an Official Document</TITLE>
+<SCRIPT TYPE="text/javascript" LANGUAGE="javascript">
+
+<!-- PreLoad Wait - Script -->
+<!-- This script and more from http://www.rainbow.arch.scriptmania.com 
+
+function waitPreloadPage() { //DOM
+if (document.getElementById){
+document.getElementById('prepage').style.visibility='hidden';
+}else{
+if (document.layers){ //NS4
+document.prepage.visibility = 'hidden';
+}
+else { //IE4
+document.all.prepage.style.visibility = 'hidden';
+}
+}
+}
+// End -->
+</SCRIPT>
+</HEAD>
+<FONT FACE="Arial" SIZE="3">
+<BODY BACKGROUND="/images/whitenod.gif">
+<base target="_top">
+<A NAME="selection">
+<b><u>Report Selection Criteria</u></b><br><br>
+<TABLE >
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Case ID:</b><td>&nbsp;23CV-15-196<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><FONT COLOR="#000000" FACE="Arial" SIZE="4"><b></b></font><td>
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Citation No:</b><td>&nbsp;
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Docket Start Date:</b><td>&nbsp;
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Docket Ending Date:</b><td>&nbsp;
+</TABLE>
+<A NAME="description">
+<br><br><b><u>Case Description  </u></b><br><br>
+<TABLE >
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Case ID:</b><td>&nbsp;23CV-15-196
+ - STATE V 2002 CHEVROLET
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Filing Date:</b><td>&nbsp;Wednesday, March     04th, 2015
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Court:</b>
+<td>&nbsp;23 - FAULKNER
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Location:</b>
+<td>&nbsp;CI - CIRCUIT
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Type:</b>
+<td>&nbsp;CF - PROPERTY FORFEITURE
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Status:</b>
+<td>&nbsp;CLOSED - CASE CLOSED
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Images:</b>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+</TABLE>
+&nbsp;&nbsp;
+<A NAME="events">
+<BR>
+<BR>
+<B><u>Case Event Schedule</u></B>
+<BR>
+<BR>
+<I>No case events were found.</I>
+<A NAME="parties">
+<BR>
+<BR>
+<B><u>Case Parties</u></B>
+<BR>
+<BR>
+<TABLE  NOWRAP border width=100% cellspacing=1 cellpadding=4>
+<TR>
+<TH ALIGN="right">Seq #</TH>
+<TH ALIGN="right">Assoc</TH>
+<TH ALIGN="left">End Date</TH>
+<TH ALIGN="left">Type</TH>
+<TH ALIGN="left">ID</TH>
+<TH ALIGN="left">Name</TH>
+</TR>
+<TR VALIGN="top">
+<TD ALIGN="right">1</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>JUDGE</TD>
+<TD><A HREF="ck_public_qry_cpty.cp_personcase_details_idx?backto=P&soundex_ind=&partial_ind=&last_name=&first_name=&middle_name=&begin_date=&end_date=&case_type=&id_code=C20D03">7965464</A></TD>
+<TD><B>20TH CIRCUIT DIVISION 3 </B></TD>
+<TR ALIGN="left" VALIGN="top">
+<TD><B> </B></TD>
+<td COLSPAN=2>
+</td>
+<TD><B> </B></TD>
+<TD ALIGN="right"><B>Aliases:</B></TD>
+<td COLSPAN=2>
+
+CLAWSON
+</TR>
+<TR>
+<TD COLSPAN="6">&nbsp;</TD>
+</TR>
+<TR VALIGN="top">
+<TD ALIGN="right">2</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>PLAINTIFF</TD>
+<TD><A HREF="ck_public_qry_cpty.cp_personcase_details_idx?backto=P&soundex_ind=&partial_ind=&last_name=&first_name=&middle_name=&begin_date=&end_date=&case_type=&id_code=@83099">10645305</A></TD>
+<TD><B>ARKANSAS, STATE OF </B></TD>
+<TR ALIGN="left" VALIGN="top">
+<TD><B> </B></TD>
+<td COLSPAN=2>
+</td>
+<TD><B> </B></TD>
+<TD ALIGN="right"><B>Aliases:</B></TD>
+<td COLSPAN=2>
+<I>none</I>
+</TR>
+<TR>
+<TD COLSPAN="6">&nbsp;</TD>
+</TR>
+<TR VALIGN="top">
+<TD ALIGN="right">7</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>PLAINTIFF/PETITIONER ATTORNEY</TD>
+<TD><A HREF="ck_public_qry_cpty.cp_personcase_details_idx?backto=P&soundex_ind=&partial_ind=&last_name=&first_name=&middle_name=&begin_date=&end_date=&case_type=&id_code=AR2014123">12712991</A></TD>
+<TD><B>CATO, CORTNEY GAIL</B></TD>
+<TR ALIGN="left" VALIGN="top">
+<TD><B> </B></TD>
+<td COLSPAN=2>
+</td>
+<TD><B> </B></TD>
+<TD ALIGN="right"><B>Aliases:</B></TD>
+<td COLSPAN=2>
+<I>none</I>
+</TR>
+<TR>
+<TD COLSPAN="6">&nbsp;</TD>
+</TR>
+<TR VALIGN="top">
+<TD ALIGN="right">4</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>CLAIMANT</TD>
+<TD><A HREF="ck_public_qry_cpty.cp_personcase_details_idx?backto=P&soundex_ind=&partial_ind=&last_name=&first_name=&middle_name=&begin_date=&end_date=&case_type=&id_code=@684980">13282934</A></TD>
+<TD><B>MCMILLEN, BARTLEY </B></TD>
+<TR ALIGN="left" VALIGN="top">
+<TD><B> </B></TD>
+<td COLSPAN=2>
+</td>
+<TD><B> </B></TD>
+<TD ALIGN="right"><B>Aliases:</B></TD>
+<td COLSPAN=2>
+<I>none</I>
+</TR>
+<TR>
+<TD COLSPAN="6">&nbsp;</TD>
+</TR>
+<TR VALIGN="top">
+<TD ALIGN="right">5</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>CLAIMANT</TD>
+<TD><A HREF="ck_public_qry_cpty.cp_personcase_details_idx?backto=P&soundex_ind=&partial_ind=&last_name=&first_name=&middle_name=&begin_date=&end_date=&case_type=&id_code=@684981">13282935</A></TD>
+<TD><B>MCMILLEN, JAMIE SHEREE</B></TD>
+<TR ALIGN="left" VALIGN="top">
+<TD><B> </B></TD>
+<td COLSPAN=2>
+</td>
+<TD><B> </B></TD>
+<TD ALIGN="right"><B>Aliases:</B></TD>
+<td COLSPAN=2>
+<I>none</I>
+</TR>
+<TR>
+<TD COLSPAN="6">&nbsp;</TD>
+</TR>
+<TR VALIGN="top">
+<TD ALIGN="right">3</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>DEFENDANT</TD>
+<TD><A HREF="ck_public_qry_cpty.cp_personcase_details_idx?backto=P&soundex_ind=&partial_ind=&last_name=&first_name=&middle_name=&begin_date=&end_date=&case_type=&id_code=@684979">13282933</A></TD>
+<TD><B>2002 CHEVROLET C15, SW VIN#3GNFK16Z32G251827 </B></TD>
+<TR ALIGN="left" VALIGN="top">
+<TD><B> </B></TD>
+<td COLSPAN=2>
+</td>
+<TD><B> </B></TD>
+<TD ALIGN="right"><B>Aliases:</B></TD>
+<td COLSPAN=2>
+<I>none</I>
+</TR>
+<TR>
+<TD COLSPAN="6">&nbsp;</TD>
+</TR>
+</TABLE>
+<A NAME="violations">
+<br><br><b><u>Violations</u></b><br><br>
+<A NAME="sentences">
+<br><br><br><br><br><br><b><u>Sentence</u></b><br><br>
+No Sentence Info Found.<br><br><br>
+<A NAME="milestone">
+<BR>
+<BR>
+<B><u>Milestone Tracks</u></B>
+<BR>
+<BR>
+</TABLE>
+<I>No Milestone Tracks found.</I>
+<A NAME="dockets">
+<BR>
+<BR>
+<B><u>Docket Entries</u></B>
+<BR>
+<BR>
+<TABLE  NOWRAP border width=100% cellspacing=1 cellpadding=4>
+<TR>
+<TH ALIGN="left">Filing Date</TH>
+<TH ALIGN="left">Description</TH>
+<TH ALIGN="left">Name</TH>
+<TH ALIGN="right">Monetary</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>03/04/2015<BR>11:22 AM</TD>
+<TD>MOF ORIGINAL</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3"><I>none.</I></TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD>No Images</TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>03/04/2015<BR>11:22 AM</TD>
+<TD>AOC COVERSHEET CIVIL</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3"><I>none.</I></TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=F06860FE80697A08308F0A21E531A5EAFE7E80593880CA67FB529F9C45BB3B16E8D597AAB9254DB53A7A6A691B245084&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">COVER SHEET</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>03/04/2015<BR>11:22 AM</TD>
+<TD>COMPLAINT/PETITION FILED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">IN REM COMPLAINT</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=D0F579131D3ECD5835AB9817C07BE53CFC10A6FD527629691FC394C751632E86F0C385BE4C1ED58E537675E02B83B2AA&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">COMPLAINT</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>03/04/2015<BR>11:22 AM</TD>
+<TD>REQUEST</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">REQUESTS FOR ADMISSION PROPOUNDED UPON POTENTIAL CLAIMANT BARTLEY MCMILLEN</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=AF5507726806B8B5C44EE8360CAE10C8A0062849484A54915A77D94724AC356239EC690D00EF4E3CEBA607B1B050DC88&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">OTHER</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>03/04/2015<BR>11:23 AM</TD>
+<TD>REQUEST</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">REQUESTS FOR ADMISSION PROPOUNDED UPON POTENTIAL CLAIMANT JAMIE SHEREE MCMILLEN</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=50AB1BCC22F45CE4F5C4D45A021A08BE0957D1DC94D392784F1F7BD573FD09B05A33897E502B9006A95DFAB5404AEB33&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">OTHER</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>03/04/2015<BR>11:23 AM</TD>
+<TD>SUMMONS ISSUED</TD>
+<TD>MCMILLEN, BARTLEY </TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3"><I>none.</I></TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=E41A8CC5F4CB165F0553DE30BE99718D139B97A97B131D82A5E8D0E391B545B70D95244BCB2ED12B80E3D50A065AF0DC&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">SUMMONS</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>03/04/2015<BR>11:23 AM</TD>
+<TD>SUMMONS ISSUED</TD>
+<TD>MCMILLEN, JAMIE SHEREE</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3"><I>none.</I></TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=B40BBBAC235C44B44B5C8AB04404D43240C52AE37B72486F9C33F7E0BAD1DB746EB715A0D80A9EC76300BF5E8C14B17C&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">SUMMONS</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>04/22/2015<BR>08:07 AM</TD>
+<TD>AFFIDAVIT OF SERVICE</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">AFFIDAVIT OF SERVICE OF REQUESTS FOR ADMISSION UPON POTENTIAL CLAIMANT JAMIE SHEREE MCMILLEN 4-21-15</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=14AC8BBFBA4BF5C86EDF3DFFCA340E3A6A3F00CBA1D5D0BE052FCF37CB8E21F967E63AD6A9029F4EF6A5E22887905AE3&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">AFFIDAVIT</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>04/22/2015<BR>08:07 AM</TD>
+<TD>SUMMONS SERVED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">JAMIE MCMILLEN (BARTLEY MCMILLEN 4-21-15</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=D69EC15A97A8E2C04BAEB8BB7632B748378683601F3B483A50A77E85B0A03AA09E47F504D9AEE4C0F119233C10AB4210&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">SUMMONS</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>04/22/2015<BR>08:07 AM</TD>
+<TD>SUMMONS SERVED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">JAMIE MCMILLEN 4-21-15</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=8662BFAB1077C5BB776C2509CF253EE702570C751D42C42ECE7F7EFDD3DE1CF6BF188A304D262D261610BB81502A0E81&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">SUMMONS</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>04/22/2015<BR>08:08 AM</TD>
+<TD>AFFIDAVIT OF SERVICE</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">AFFIDAVIT OF SERVICE OF REQUESTS FOR ADMISSION UPON POTENTIAL CLAIMANT BARTLEY MCMILLEN - DELIVERED TO WIFE - 4-21-15</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=C553354012F66E7BB425162D477ED95C355E6E7051CD4860EA0EA142E62E834AE9F9AAC6688C5046B08DCB913E4D62F8&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">AFFIDAVIT</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>05/12/2015<BR>10:38 AM</TD>
+<TD>PRE-TRIAL HEARING SCHEDULED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3"><I>none.</I></TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD>No Images</TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>05/19/2015<BR>03:34 PM</TD>
+<TD>LETTER</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">GWEN PAUSCHERT</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=2C314B3F6C9D5176B8143A98E947C11EE79CD4BA53A10DECFF917B2B35A5D1142F36D05601D9A7DBE73A21D99A094484&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">LETTER</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>05/19/2015<BR>03:34 PM</TD>
+<TD>RESPONSE/REPLY</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">RESPONSE TO REQUESTS FOR ADMISSION</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=25A9D480F5BFAE8854165613775F9F953F79F1517D0005CC028CDFEF875490E546D250FCF692E729EFEC4A431ABB34A0&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">RESPONSE</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>05/19/2015<BR>03:34 PM</TD>
+<TD>ANSWER FILED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">ANSWER TO IN REM COMPLAINT</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=AF278945AB0AB26D107F05F397BC9213AEF35E42E60C113A60906ED475A795B9189CFF51D6E25ECD83BB12B81F212DDC&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">ANSWER</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>05/19/2015<BR>03:34 PM</TD>
+<TD>RESPONSE/REPLY</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">RESPONSE TO REQUESTS FOR ADMISSION</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=E10409CC8819C984D6723A3F2F681C85CA4B8796A2044FF15595E9884A59CD21817501DA1584D543EE9EB02C97075908&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">RESPONSE</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>08/27/2015<BR>02:00 PM</TD>
+<TD>SUBPOENA ISSUED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">RICHARD SHUMATE</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=62FDC0CCC9BEDD63B9DD9B8280F38C70D9D703FD6AAD55E0B0BAEAD7A4A28AE3F7FAFCDB740B2A3963227C54C3E80277&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>08/27/2015<BR>02:00 PM</TD>
+<TD>SUBPOENA ISSUED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">TOM KENNEDY</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=17D477C3B3D6CFC6474EB302E3BE106EB49D44DF63F95632701AEAA6755FB52536A68E086D2FDC246AD3BD639B7FE5DE&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>08/27/2015<BR>02:00 PM</TD>
+<TD>SUBPOENA ISSUED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">TODD WESBECHER</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=CE5DDED40D32429AA4B8BE0B326C8EDDE05D6D99A0FD8068D8AD1383A5B2D770BADDA0DC8404E18510564A9FBC47791B&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>08/27/2015<BR>02:00 PM</TD>
+<TD>SUBPOENA ISSUED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">ANGELINA LOESCHNER</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=640E91E5CD20A3AB96FD9B108CF1F17DBF2E18B6C24FF5B743ED1D8EF97ADC6BB32A2A1EAB989F96C4E5306D5E29671B&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>09/01/2015<BR>09:16 AM</TD>
+<TD>SUBPOENA SERVED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">ANGELINA LOESCHNER 08/31/15</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=F2E37F35EE4944BA921ED57EFDD08EBCDEB9A280AC7DF9379F3F00673B232765DA8D1675EF58AF22CD3B6E1963CC14E6&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>09/01/2015<BR>09:16 AM</TD>
+<TD>SUBPOENA SERVED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">TODD WESBECHER 08/31/15</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=A8B3C3AF477393EE972386289632E791CFF725CD13CB74D96B8D73FEEE65DA1B7DA3DC32D32914C048C8F5B7D015E62D&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>09/01/2015<BR>09:16 AM</TD>
+<TD>SUBPOENA SERVED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">TOM KENNEDY 08/31/15</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=6F7140202B562D77F27EDF13CB34B39297B5314870305477B8E322D2046BE18B16A8EBB39C6E2DD96E053035439EE985&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>09/01/2015<BR>09:16 AM</TD>
+<TD>SUBPOENA SERVED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">RICHARD SHUMATE 08/31/15</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=18DA5C4CC5B21629B468AF5B751329319B5787E815A5193BD446D4AB2FC0B47D8BE569C25B6484A15868C31758CEE7C3&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>09/03/2015<BR>11:50 AM</TD>
+<TD>SUBPOENA SERVED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">TOM KENNEDY 8/31/15</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=E2694693E1EC468561DBC709D520CA7EE9F55C9E95C9A5A407A559FB23E558B93DADDCF3B7B53458DAFFD14B5B116DCD&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>09/03/2015<BR>11:50 AM</TD>
+<TD>SUBPOENA SERVED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">RICHARD SHUMATE 8/31/15</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=28CC65FD140A1625BF9EA3CDFDA15F75955C020669D53F2B9AC547D0F7853C1B4ADB8DD6ED3E0A08B61E77C0C289B238&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>09/03/2015<BR>11:50 AM</TD>
+<TD>SUBPOENA SERVED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">ANGELINA LESCHNER 8/31/15</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=D1004AAB549E53C1EA4E0C08B6162765717B42EFC61AC64241C864851DEF804BC977DE7B904D50455A7BF7614F0861E6&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>09/03/2015<BR>11:51 AM</TD>
+<TD>SUBPOENA SERVED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">TODD WESBECHER 8/31/15</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=45DF6707DC7C3CC8E92C0AFF0594828272098BEC773F9FA91514DFA75F45A211DCA009B4878DCFF797F115D639DA980D&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>09/14/2015<BR>12:17 PM</TD>
+<TD>PRE-TRIAL HEARING SCHEDULED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3"><I>none.</I></TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD>No Images</TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>09/15/2015<BR>10:07 AM</TD>
+<TD>PRE-TRIAL HEARING CANCELLED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3"><I>none.</I></TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD>No Images</TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>10/01/2015<BR>03:58 PM</TD>
+<TD>MOTION HEARING SCHEDULED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3"><I>none.</I></TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD>No Images</TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>11/05/2015<BR>11:28 AM</TD>
+<TD>DISPOSITION HEARING HELD</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3"><I>none.</I></TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD>No Images</TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>11/05/2015<BR>01:22 PM</TD>
+<TD>ORDER NOLLE PROSEQUI</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3"><I>none.</I></TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=AB99DB98C56D44139EBD3D37496C0611716BB6455332BD7B11FA49D7AF3E79BA9EE2CC3C3B913496B6F89351238F5830&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">ORDER</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>11/05/2015<BR>01:22 PM</TD>
+<TD>ORDER OTHER</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">ORDER TO RELEASE EVIDENCE</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=A73F49874AF825698AF2FA61B39C8ED3CE6DF663BD38A93DCAAA5F578AE2245A5C269D9722713514FBC58A37B4864538&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">ORDER</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>11/05/2015<BR>01:22 PM</TD>
+<TD>MOTION OTHER</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">STATE'S MOTION TO RELEASE EVIDENCE</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=7E9E611ED2E4F7A6C8F8975D4EA0DD4346824FA288D58A1AD8F1D0CAB427A919154D0F6003936FDAC3573DD9E758BB30&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">MOTION</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>11/05/2015<BR>01:22 PM</TD>
+<TD>MOD DISMISS W/O PREJUDICE</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">TRIAL TYPE: N</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD>No Images</TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>11/06/2015<BR>03:29 PM</TD>
+<TD>CASE CLOSED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3"><I>none.</I></TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD>No Images</TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>11/17/2015<BR>12:09 PM</TD>
+<TD>FORFEIT PROPERTY HEARING SCHED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3"><I>none.</I></TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD>No Images</TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+</TABLE>
+</TABLE>
+<BR>
+<BR>
+<BR>
+<BR>
+<TABLE  NOWRAP border width=100% cellspacing=1 cellpadding=4>
+</body></html>

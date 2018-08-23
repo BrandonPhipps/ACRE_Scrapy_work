@@ -1,0 +1,418 @@
+<HTML>
+<HEAD>
+<TITLE> - Not an Official Document</TITLE>
+<SCRIPT TYPE="text/javascript" LANGUAGE="javascript">
+
+<!-- PreLoad Wait - Script -->
+<!-- This script and more from http://www.rainbow.arch.scriptmania.com 
+
+function waitPreloadPage() { //DOM
+if (document.getElementById){
+document.getElementById('prepage').style.visibility='hidden';
+}else{
+if (document.layers){ //NS4
+document.prepage.visibility = 'hidden';
+}
+else { //IE4
+document.all.prepage.style.visibility = 'hidden';
+}
+}
+}
+// End -->
+</SCRIPT>
+</HEAD>
+<FONT FACE="Arial" SIZE="3">
+<BODY BACKGROUND="/images/whitenod.gif">
+<base target="_top">
+<A NAME="selection">
+<b><u>Report Selection Criteria</u></b><br><br>
+<TABLE >
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Case ID:</b><td>&nbsp;72CV-15-334<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><FONT COLOR="#000000" FACE="Arial" SIZE="4"><b></b></font><td>
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Citation No:</b><td>&nbsp;
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Docket Start Date:</b><td>&nbsp;
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Docket Ending Date:</b><td>&nbsp;
+</TABLE>
+<A NAME="description">
+<br><br><b><u>Case Description  </u></b><br><br>
+<TABLE >
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Case ID:</b><td>&nbsp;72CV-15-334
+ - STATE OF ARKANSAS VS GINO CENDEJAS
+<i>-NON-TRIAL</i><br>
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Filing Date:</b><td>&nbsp;Thursday , February  26th, 2015
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Court:</b>
+<td>&nbsp;72 - WASHINGTON
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Location:</b>
+<td>&nbsp;CI - CIRCUIT
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Type:</b>
+<td>&nbsp;CF - PROPERTY FORFEITURE
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Status:</b>
+<td>&nbsp;CLOSED - CASE CLOSED
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Images:</b>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+</TABLE>
+&nbsp;&nbsp;
+<A NAME="events">
+<BR>
+<BR>
+<B><u>Case Event Schedule</u></B>
+<BR>
+<BR>
+<I>No case events were found.</I>
+<A NAME="parties">
+<BR>
+<BR>
+<B><u>Case Parties</u></B>
+<BR>
+<BR>
+<TABLE  NOWRAP border width=100% cellspacing=1 cellpadding=4>
+<TR>
+<TH ALIGN="right">Seq #</TH>
+<TH ALIGN="right">Assoc</TH>
+<TH ALIGN="left">End Date</TH>
+<TH ALIGN="left">Type</TH>
+<TH ALIGN="left">ID</TH>
+<TH ALIGN="left">Name</TH>
+</TR>
+<TR VALIGN="top">
+<TD ALIGN="right">1</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>JUDGE</TD>
+<TD><A HREF="ck_public_qry_cpty.cp_personcase_details_idx?backto=P&soundex_ind=&partial_ind=&last_name=&first_name=&middle_name=&begin_date=&end_date=&case_type=&id_code=C04D05">7965373</A></TD>
+<TD><B>4TH CIRCUIT DIVISION 5 </B></TD>
+<TR ALIGN="left" VALIGN="top">
+<TD><B> </B></TD>
+<td COLSPAN=2>
+</td>
+<TD><B> </B></TD>
+<TD ALIGN="right"><B>Aliases:</B></TD>
+<td COLSPAN=2>
+
+BRYAN
+</TR>
+<TR>
+<TD COLSPAN="6">&nbsp;</TD>
+</TR>
+<TR VALIGN="top">
+<TD ALIGN="right">5</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>ATTORNEY</TD>
+<TD><A HREF="ck_public_qry_cpty.cp_personcase_details_idx?backto=P&soundex_ind=&partial_ind=&last_name=&first_name=&middle_name=&begin_date=&end_date=&case_type=&id_code=AR2007182">1008494</A></TD>
+<TD><B>DEAN JR, DENIS ALLEN</B></TD>
+<TR ALIGN="left" VALIGN="top">
+<TD><B> </B></TD>
+<td COLSPAN=2>
+</td>
+<TD><B> </B></TD>
+<TD ALIGN="right"><B>Aliases:</B></TD>
+<td COLSPAN=2>
+<I>none</I>
+</TR>
+<TR>
+<TD COLSPAN="6">&nbsp;</TD>
+</TR>
+<TR VALIGN="top">
+<TD ALIGN="right">3</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>DEFENDANT</TD>
+<TD><A HREF="ck_public_qry_cpty.cp_personcase_details_idx?backto=P&soundex_ind=&partial_ind=&last_name=&first_name=&middle_name=&begin_date=&end_date=&case_type=&id_code=72C103081">14042028</A></TD>
+<TD><B>CENDEJAS, GINO </B></TD>
+<TR ALIGN="left" VALIGN="top">
+<TD><B> </B></TD>
+<td COLSPAN=2>
+</td>
+<TD><B> </B></TD>
+<TD ALIGN="right"><B>Aliases:</B></TD>
+<td COLSPAN=2>
+<I>none</I>
+</TR>
+<TR>
+<TD COLSPAN="6">&nbsp;</TD>
+</TR>
+<TR VALIGN="top">
+<TD ALIGN="right">2</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>PLAINTIFF</TD>
+<TD><A HREF="ck_public_qry_cpty.cp_personcase_details_idx?backto=P&soundex_ind=&partial_ind=&last_name=&first_name=&middle_name=&begin_date=&end_date=&case_type=&id_code=72C26106">13965053</A></TD>
+<TD><B>STATE OF ARKANSAS </B></TD>
+<TR ALIGN="left" VALIGN="top">
+<TD><B> </B></TD>
+<td COLSPAN=2>
+</td>
+<TD><B> </B></TD>
+<TD ALIGN="right"><B>Aliases:</B></TD>
+<td COLSPAN=2>
+<I>none</I>
+</TR>
+<TR>
+<TD COLSPAN="6">&nbsp;</TD>
+</TR>
+</TABLE>
+<A NAME="violations">
+<br><br><b><u>Violations</u></b><br><br>
+<A NAME="sentences">
+<br><br><br><br><br><br><b><u>Sentence</u></b><br><br>
+No Sentence Info Found.<br><br><br>
+<A NAME="milestone">
+<BR>
+<BR>
+<B><u>Milestone Tracks</u></B>
+<BR>
+<BR>
+</TABLE>
+<I>No Milestone Tracks found.</I>
+<A NAME="dockets">
+<BR>
+<BR>
+<B><u>Docket Entries</u></B>
+<BR>
+<BR>
+<TABLE  NOWRAP border width=100% cellspacing=1 cellpadding=4>
+<TR>
+<TH ALIGN="left">Filing Date</TH>
+<TH ALIGN="left">Description</TH>
+<TH ALIGN="left">Name</TH>
+<TH ALIGN="right">Monetary</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>02/26/2015<BR>08:00 AM</TD>
+<TD>MOF ORIGINAL</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">STYLE: STATE OF ARKANSAS VS GINO CENDEJAS      
+TRLDISP: N</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD>No Images</TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>02/26/2015<BR>08:00 AM</TD>
+<TD>LEGACY DOCKET SHEET</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">DIVISION WAS ASSIGNED TO DIVISION 5
+</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD>No Images</TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>02/26/2015<BR>08:00 AM</TD>
+<TD>LEGACY DOCKET SHEET</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">JUDGE WAS ASSIGNED TO JUDGE BETH BRYAN
+</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD>No Images</TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>02/26/2015<BR>08:00 AM</TD>
+<TD>LEGACY DOCKET SHEET</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">IN REM COMPLAINT FOR FOREITURE OF SEIZED ITEMS
+</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=F750E53FB5D03C8632967210B0C681141C8E79B80DD2B08F352C599430EC2A2932402E83C7B5DD088CC547C2700AC21F&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">CONVERTED</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>02/26/2015<BR>08:00 AM</TD>
+<TD>LEGACY DOCKET SHEET</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">LTR TO DET BAIN POTTER
+</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=A029D3FA06E57F2080327000D2B96366B491B83F1E113E943E7A01BFBFAF0E44969A5187BEE31027D789DE3B0594EA88&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">CONVERTED</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>02/26/2015<BR>08:00 AM</TD>
+<TD>LEGACY DOCKET SHEET</TD>
+<TD>CENDEJAS, GINO </TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">SUMMONS ISSUED
+</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=54E99E062649B7E0DBC63B48DCC377B372284C12DE662FA177061558221AA491C9C2A75C2F2FFAEA483647C76693CA52&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">CONVERTED</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>04/08/2015<BR>08:00 AM</TD>
+<TD>LEGACY DOCKET SHEET</TD>
+<TD>CENDEJAS, GINO </TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">SUMMONS SERVED
+</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=67B0DECB0AD3500CB37D753E6E694EA0D2825250CE6234FC89D540F1ADCFBA55D80C02180579C189EA48982B33F87C68&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">CONVERTED</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>05/13/2015<BR>08:00 AM</TD>
+<TD>LEGACY DOCKET SHEET</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">MOTION FOR DEFAULT JUDGMENT FR PLF STATE OF ARKANSAS
+</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=C928AB32C7763F0944F3D3D53B1A39D20A9D0FF5449FBF0FB89B68A7A9E30E531E4F90A986B88073008F7F19832784B5&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">CONVERTED</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>05/14/2015<BR>08:00 AM</TD>
+<TD>MOD DEFAULT JUDGMENT</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">TRIAL TYPE: N</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD>No Images</TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>05/14/2015<BR>08:00 AM</TD>
+<TD>LEGACY DOCKET SHEET</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">ORDER FOR DEFAULT JUDGMENT FOR $2,784.00
+BOOK: 2015 PAGE: 18359</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS/ck_image.present?DMS_ID=3E1EAECAD6D56CF6EFC25456C0C563C03EEA9654D578B57FF522E78B8E1C8A94D64CC203556CDBB8E56F16EFD1291501&i_url=https://contexte.aoc.arkansas.gov/imaging/IMAGES/DMS" target="_blank">CONVERTED</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+</TABLE>
+</TABLE>
+<BR>
+<BR>
+<BR>
+<BR>
+<TABLE  NOWRAP border width=100% cellspacing=1 cellpadding=4>
+</body></html>

@@ -78,14 +78,78 @@ class civilforfeiture2015(scrapy.Spider):
     start_urls = []
     i=0
     while i < len(civilCaseNum):
-        start_urls.append("https://caseinfo.arcourts.gov/cconnect/PROD/public/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id="+ civilCaseNum[i] +"&begin_date=&end_date=" )
+        start_urls.append('https://caseinfo.arcourts.gov/cconnect/PROD/public/ck_public_qry_doct.cp_dktrpt_docket_report?backto=P&case_id='+ civilCaseNum[i] +'&citation_no=&begin_date=&end_date=')#("https://caseinfo.arcourts.gov/cconnect/PROD/public/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id="+ civilCaseNum[i] +"&begin_date=&end_date=" )
         i+= 1
         
     def parse(self, response):
         
-        caseDescription = response.xpath('//a[@name="description"]').extract_first()
-        if caseDescription:
+        caseInfo = response.css('body > font').extract_first() #response.css('table').extract_first() xpath('//a[@name="description"]').
+        if caseInfo:
+            caseInfo = caseInfo.split('<a name=')
             civil_case = {}
-            case_Description = bleach.clean(caseDescription, tags=[], attributes={}, styles=[], strip=True)
-            civil_case['description'] = case_Description
+            
+            
+            #if caseInfo.find('<table>')
+            caseDescription = bleach.clean(caseInfo[2], tags=[], attributes={}, styles=[], strip=True)
+            caseEventSchedule = bleach.clean(caseInfo[3], tags=[], attributes={}, styles=[], strip=True)
+            
+            
+            casePartiesInvolved = caseInfo[4]
+            casePartiesInvolved = casePartiesInvolved.replace('\n','')
+            casePartiesInvolved = casePartiesInvolved.replace('\xa0','')
+            casePartiesInvolved = casePartiesInvolved.split('</tr>')
+            partyTitles = casePartiesInvolved[0]
+            partyTitles = partyTitles.split('</th>')
+            partyTitles = [bleach.clean(x, tags=[], attributes={}, styles=[], strip=True) for x in partyTitles]
+            
+            casePartiesInvolved = [casePartiesInvolved[0], casePartiesInvolved[-1]]
+            del casePartiesInvolved[2::3]
+            
+            
+            
+            count = 1
+            parties = {}
+            
+            while count <= len(casePartiesInvolved):
+                
+                if count%2 == 1:
+                    seperateParties = casePartiesInvolved[count-1]
+                    seperateParties = seperateParties.split('</td>')
+                    seperateParties = [bleach.clean(x, tags=[], attributes={}, styles=[], strip=True) for x in seperateParties]
+                    
+                    
+                    parties[partyTitles[0]] = 'seperateParties[0]'
+                    parties[partyTitles[1]] = 'seperateParties[1]'
+                    parties[partyTitles[2]] = 'seperateParties[2]'
+                    parties[partyTitles[3]] = 'seperateParties[3]'
+                    parties[partyTitles[4]] = 'seperateParties[4]'
+                    parties[partyTitles[5]] = 'seperateParties[5]'
+                    
+                else:
+                    seperateParties = casePartiesInvolved[count-1]
+                    seperateParties = seperateParties.split('</td>')
+                    alias = seperateParties[-1]
+                    alias = bleach.clean(alias, tags=[], attributes={}, styles=[], strip=True)
+                    parties['Alias'] = alias
+                
+                count = count + 1
+
+            
+            
+            #casePartiesInvolved = bleach.clean(caseInfo[4], tags=[], attributes={}, styles=[], strip=True)
+
+            caseDescription = caseDescription.replace('\n','')
+            caseEventSchedule = caseEventSchedule.replace('\n', '')
+            
+            caseDescription = caseDescription.replace('\xa0','')            
+            caseEventSchedule = caseEventSchedule.replace('\xa0','')
+             #•
+            
+            civil_case['URL Address'] = response.url
+            civil_case['Description'] = caseDescription            
+            civil_case['Event Schedule'] = caseEventSchedule
+            civil_case['Parties Involved'] = parties
+
+            
+            
             yield civil_case

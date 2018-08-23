@@ -1,0 +1,1145 @@
+<HTML>
+<HEAD>
+<TITLE> - Not an Official Document</TITLE>
+<SCRIPT TYPE="text/javascript" LANGUAGE="javascript">
+
+<!-- PreLoad Wait - Script -->
+<!-- This script and more from http://www.rainbow.arch.scriptmania.com 
+
+function waitPreloadPage() { //DOM
+if (document.getElementById){
+document.getElementById('prepage').style.visibility='hidden';
+}else{
+if (document.layers){ //NS4
+document.prepage.visibility = 'hidden';
+}
+else { //IE4
+document.all.prepage.style.visibility = 'hidden';
+}
+}
+}
+// End -->
+</SCRIPT>
+</HEAD>
+<FONT FACE="Arial" SIZE="3">
+<BODY BACKGROUND="/images/whitenod.gif">
+<base target="_top">
+<A NAME="selection">
+<b><u>Report Selection Criteria</u></b><br><br>
+<TABLE >
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Case ID:</b><td>&nbsp;47BCV-15-31<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><FONT COLOR="#000000" FACE="Arial" SIZE="4"><b></b></font><td>
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Citation No:</b><td>&nbsp;
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Docket Start Date:</b><td>&nbsp;
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Docket Ending Date:</b><td>&nbsp;
+</TABLE>
+<A NAME="description">
+<br><br><b><u>Case Description  </u></b><br><br>
+<TABLE >
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Case ID:</b><td>&nbsp;47BCV-15-31
+ - ST OF AR V LASHAWN HARRIS
+<i>-NON-TRIAL</i><br>
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Filing Date:</b><td>&nbsp;Monday   , February  09th, 2015
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Court:</b>
+<td>&nbsp;47 - MISSISSIPPI
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Location:</b>
+<td>&nbsp;ZC - BLYTHEVILLE DISTRICT
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Type:</b>
+<td>&nbsp;CF - PROPERTY FORFEITURE
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Status:</b>
+<td>&nbsp;CLOSED - CASE CLOSED
+<TR VALIGN="top">
+<td>&nbsp;<td><b>Images:</b>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+</TABLE>
+&nbsp;&nbsp;
+<A NAME="events">
+<BR>
+<BR>
+<B><u>Case Event Schedule</u></B>
+<BR>
+<BR>
+<I>No case events were found.</I>
+<A NAME="parties">
+<BR>
+<BR>
+<B><u>Case Parties</u></B>
+<BR>
+<BR>
+<TABLE  NOWRAP border width=100% cellspacing=1 cellpadding=4>
+<TR>
+<TH ALIGN="right">Seq #</TH>
+<TH ALIGN="right">Assoc</TH>
+<TH ALIGN="left">End Date</TH>
+<TH ALIGN="left">Type</TH>
+<TH ALIGN="left">ID</TH>
+<TH ALIGN="left">Name</TH>
+</TR>
+<TR VALIGN="top">
+<TD ALIGN="right">1</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>JUDGE</TD>
+<TD><A HREF="ck_public_qry_cpty.cp_personcase_details_idx?backto=P&soundex_ind=&partial_ind=&last_name=&first_name=&middle_name=&begin_date=&end_date=&case_type=&id_code=C02D03">7965354</A></TD>
+<TD><B>2ND CIRCUIT DIVISION 3 </B></TD>
+<TR ALIGN="left" VALIGN="top">
+<TD><B> </B></TD>
+<td COLSPAN=2>
+</td>
+<TD><B> </B></TD>
+<TD ALIGN="right"><B>Aliases:</B></TD>
+<td COLSPAN=2>
+
+DAVIS
+</TR>
+<TR>
+<TD COLSPAN="6">&nbsp;</TD>
+</TR>
+<TR VALIGN="top">
+<TD ALIGN="right">4</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>PLAINTIFF/PETITIONER ATTORNEY</TD>
+<TD><A HREF="ck_public_qry_cpty.cp_personcase_details_idx?backto=P&soundex_ind=&partial_ind=&last_name=&first_name=&middle_name=&begin_date=&end_date=&case_type=&id_code=AR99080">1006945</A></TD>
+<TD><B>HENRY, CHARLENE DAVIDSON</B></TD>
+<TR ALIGN="left" VALIGN="top">
+<TD><B> </B></TD>
+<td COLSPAN=2>
+</td>
+<TD><B> </B></TD>
+<TD ALIGN="right"><B>Aliases:</B></TD>
+<td COLSPAN=2>
+
+HENRY, CHARLENE
+</TR>
+<TR>
+<TD COLSPAN="6">&nbsp;</TD>
+</TR>
+<TR VALIGN="top">
+<TD ALIGN="right">3</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>DEFENDANT</TD>
+<TD><A HREF="ck_public_qry_cpty.cp_personcase_details_idx?backto=P&soundex_ind=&partial_ind=&last_name=&first_name=&middle_name=&begin_date=&end_date=&case_type=&id_code=915466375">2462171</A></TD>
+<TD><B>HARRIS, LASHAWN DERON</B></TD>
+<TR ALIGN="left" VALIGN="top">
+<TD><B> </B></TD>
+<td COLSPAN=2>
+</td>
+<TD><B> </B></TD>
+<TD ALIGN="right"><B>Aliases:</B></TD>
+<td COLSPAN=2>
+<I>none</I>
+</TR>
+<TR>
+<TD COLSPAN="6">&nbsp;</TD>
+</TR>
+<TR VALIGN="top">
+<TD ALIGN="right">2</TD>
+<TD>&nbsp;</TD>
+<TD>&nbsp;</TD>
+<TD>PLAINTIFF</TD>
+<TD><A HREF="ck_public_qry_cpty.cp_personcase_details_idx?backto=P&soundex_ind=&partial_ind=&last_name=&first_name=&middle_name=&begin_date=&end_date=&case_type=&id_code=47STAR">13771378</A></TD>
+<TD><B>STATE OF ARKANSAS </B></TD>
+<TR ALIGN="left" VALIGN="top">
+<TD><B> </B></TD>
+<td COLSPAN=2>
+</td>
+<TD><B> </B></TD>
+<TD ALIGN="right"><B>Aliases:</B></TD>
+<td COLSPAN=2>
+<I>none</I>
+</TR>
+<TR>
+<TD COLSPAN="6">&nbsp;</TD>
+</TR>
+</TABLE>
+<A NAME="violations">
+<br><br><b><u>Violations</u></b><br><br>
+<A NAME="sentences">
+<br><br><br><br><br><br><b><u>Sentence</u></b><br><br>
+No Sentence Info Found.<br><br><br>
+<A NAME="milestone">
+<BR>
+<BR>
+<B><u>Milestone Tracks</u></B>
+<BR>
+<BR>
+</TABLE>
+<I>No Milestone Tracks found.</I>
+<A NAME="dockets">
+<BR>
+<BR>
+<B><u>Docket Entries</u></B>
+<BR>
+<BR>
+<TABLE  NOWRAP border width=100% cellspacing=1 cellpadding=4>
+<TR>
+<TH ALIGN="left">Filing Date</TH>
+<TH ALIGN="left">Description</TH>
+<TH ALIGN="left">Name</TH>
+<TH ALIGN="right">Monetary</TH>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>02/09/2015<BR>08:00 AM</TD>
+<TD>MOF ORIGINAL</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">STYLE: ST OF AR V HARRIS                       
+TRLDISP: N</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD>No Images</TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>02/09/2015<BR>09:00 AM</TD>
+<TD>AOC COVERSHEET CIVIL</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3"><I>none.</I></TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=1cebb6ad-d4ca-449a-b4de-d4920be4407e" target="_blank">COVER SHEET</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>02/09/2015<BR>09:00 AM</TD>
+<TD>COMPLAINT/PETITION FILED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">IN PERSONAM COMPLAINT FILED WITH COPY OF REPORT ATTACHED AND FILED.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=1e887be9-1228-423e-a84e-2b6612cccbbe" target="_blank">COMPLAINT</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>02/09/2015<BR>09:00 AM</TD>
+<TD>SUMMONS ISSUED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">SUMMONS ISSUED TO LASHAWN HARRIS (1709 SALES ST)</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=c5382e1c-f661-43be-8184-0a28a045ee0f" target="_blank">SUMMONS</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>02/09/2015<BR>09:00 AM</TD>
+<TD>SUMMONS ISSUED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">SUMMONS ISSUED TO LASHAWN HARRIS (128 WEST HARDIN)</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=9e355a57-4cd6-49c9-aa40-3703ae32994a" target="_blank">SUMMONS</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>02/09/2015<BR>09:00 AM</TD>
+<TD>LETTER</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">COPY OF LETTER TO OFFICE OF THE DRUG DIRECTOR</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=5adc4245-e9eb-438d-851d-b70abce4a0f4" target="_blank">LETTER</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>03/12/2015<BR>02:30 PM</TD>
+<TD>SUMMONS SERVED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">SUMMONS RETURNED SHOWING SERVICE ON LASHAWN HARRIS ON 2/26/15.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=d1fc9ab5-a621-47ac-9859-00f0905bba33" target="_blank">SUMMONS</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>06/24/2015<BR>04:15 PM</TD>
+<TD>MOTION DISMISS</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">MOTION TO DISMISS FILED WITH EXHIBIT "1" ATTACHED AND FILED.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=1dfa2949-d3e7-4b28-8ed2-6abecb5cad4b" target="_blank">MOTION</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>06/26/2015<BR>09:00 AM</TD>
+<TD>RESPONSE TO MOTION FILED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">RESPONSE TO DEFENDANT'S MOTION TO DISMISS FILED WITH EXHBIIT "A" ATTACHED AND FILED.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=c72650bc-32b6-4c6e-b93f-db854cc63bca" target="_blank">RESPONSE</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>06/30/2015<BR>09:00 AM</TD>
+<TD>SUBPOENA ISSUED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">SUBPOENA ISSUED TO LASHAWN HARRIS TO APPEAR AT LAW OFFICES OF JAMES W. HARRIS FOR DEPOSITION ON 7/10/15 AT 10:00AM.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=681f9e1c-83c9-492e-9da0-2a4b9c2fb9a1" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>06/30/2015<BR>12:30 PM</TD>
+<TD>MOTION DEFAULT JUDGMENT</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">MOTION FOR DEFAULT JUDGMENT FILED WITH AFFIDAVIT ATTACHED AND FILED.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=db3a287d-2f30-431b-a179-3fb66117f275" target="_blank">MOTION</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>07/01/2015<BR>02:30 PM</TD>
+<TD>SUBPOENA SERVED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">SUBPOENA THAT WAS ISSUED BY ATTY JAMES W. HARRIS ON 6/29/15 TO JOE PARSONS TO APPEAR ON 7/10/15 FOR DEPOSITION AT 10AM AT LAW OFFICE OF JAMES W. HARRIS FILED SHOWING SERVICE ON JOE PARSONS ON 7/1/2015 WITH COPY OF MONEY ORDER ATTACHED AND FILED.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=60f7ecf5-2d02-438d-89c9-e4e1574a5dfd" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>07/24/2015<BR>03:00 PM</TD>
+<TD>JUDGMENT-DEFAULT</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">DEFAULT JUDGMENT FILED.
+
+*ORDER TO SET ASIDE DEFAULT JUDGMENT FILED ON 10/8/15.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=e447eaf9-7740-46ec-a409-db3dbc36003a" target="_blank">JUDGMENT</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>10/08/2015<BR>10:45 AM</TD>
+<TD>ORDER SET ASIDE JUDGMENT</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">ORDER TO SET ASIDE DEFAULT JUDGMENT FILED ON 7/24/15.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=29fbbb25-8e14-406b-807e-fb89bfd3ecbe" target="_blank">ORDER TO SET ASIDE JUDGMENT</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>11/09/2015<BR>03:43 PM</TD>
+<TD>LEGACY DOCKET SHEET</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3"><I>none.</I></TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=755007ba-61e5-4049-a329-de4d2108e992" target="_blank">DOCKET SHEETS</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>02/01/2017<BR>09:00 AM</TD>
+<TD>SUBPOENA ISSUED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">SUBPOENA ISSUED TO ROCKY RAPERT, ARKANSAS STATE TROOPER
+YOU ARE COMMANDED TO APPEAR AT THE PLACE, DATE AND TIME SPECIFIED BELOW TO TESTIFY AT THE TRIAL/HEARING IN THE ABOVE CASE. 
+MISSISSIPPI COUNTY COURTHOUSE-BLYTHEVILLE ARKANSAS ON FEBRUARY 28, 2017 AT 9:00 A.M.SUBPOENA ISSUED TO ROCKEY RAPERT, ARKANSAS STATE TROOPER</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=bede55c1-5325-4682-b17b-24b6f3914bc6" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>02/01/2017<BR>09:00 AM</TD>
+<TD>SUBPOENA ISSUED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">SUBPOENA ISSUED TO RONNIE MCSHAN, BLYTHEVILLE POLICE OFFICER
+YOU ARE COMMANDED TO APPEAR AT THE PLACE, DATE AND TIME SPECIFIED BELOW TO TESTIFY AT THE TRIAL/HEARING IN THE ABOVE CASE. 
+MISSISSIPPI COUNTY COURTHOUSE-BLYTHEVILLE ARKANSAS ON FEBRUARY 28, 2017 AT 9:00 A.M.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=d3714fdf-c251-421f-bc16-6c67bdecf5d9" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>02/01/2017<BR>09:00 AM</TD>
+<TD>SUBPOENA ISSUED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">SUBPOENA ISSUED TO ERIC FARRELL, BLYTHEVILLE POLICE OFFICER
+YOU ARE COMMANDED TO APPEAR AT THE PLACE, DATE AND TIME SPECIFIED BELOW TO TESTIFY AT THE TRIAL/HEARING IN THE ABOVE CASE. 
+MISSISSIPPI COUNTY COURTHOUSE-BLYTHEVILLE ARKANSAS ON FEBRUARY 28, 2017 AT 9:00 A.M.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=e5f7e1c9-b2b2-4f2a-be11-5012e99e398a" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>02/01/2017<BR>09:00 AM</TD>
+<TD>SUBPOENA ISSUED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">SUBPOENA ISSUED TO DUSTIN LACOTTS, BLYTHEVILLE POLICE OFFICER
+YOU ARE COMMANDED TO APPEAR AT THE PLACE, DATE AND TIME SPECIFIED BELOW TO TESTIFY AT THE TRIAL/HEARING IN THE ABOVE CASE. 
+MISSISSIPPI COUNTY COURTHOUSE-BLYTHEVILLE ARKANSAS ON FEBRUARY 28, 2017 AT 9:00 A.M.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=12e3d3d3-58fd-4107-aab3-a16a0732cfd8" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>02/01/2017<BR>09:00 AM</TD>
+<TD>SUBPOENA ISSUED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">SUBPOENA ISSUED TO MATTHEW HUCKABAY, BLYTHEVILLE POLICE OFFICER
+YOU ARE COMMANDED TO APPEAR AT THE PLACE, DATE AND TIME SPECIFIED BELOW TO TESTIFY AT THE TRIAL/HEARING IN THE ABOVE CASE. 
+MISSISSIPPI COUNTY COURTHOUSE-BLYTHEVILLE ARKANSAS ON FEBRUARY 28, 2017 AT 9:00 A.M.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=93b42435-c9ad-4ff1-88c4-579bcd8439b3" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>02/01/2017<BR>09:00 AM</TD>
+<TD>SUBPOENA ISSUED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">SUBPOENA ISSUED TO STEPHEN SIGMAN, BLYTHEVILLE POLICE OFFICER
+YOU ARE COMMANDED TO APPEAR AT THE PLACE, DATE AND TIME SPECIFIED BELOW TO TESTIFY AT THE TRIAL/HEARING IN THE ABOVE CASE. 
+MISSISSIPPI COUNTY COURTHOUSE-BLYTHEVILLE ARKANSAS ON FEBRUARY 28, 2017 AT 9:00 A.M.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=6bef4c27-5778-4fd2-83e1-8ddf6f3a8799" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>02/01/2017<BR>09:00 AM</TD>
+<TD>SUBPOENA ISSUED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">SUBPOENA ISSUED TO CURT CHANDLER, WILSON POLICE CHIEF
+YOU ARE COMMANDED TO APPEAR AT THE PLACE, DATE AND TIME SPECIFIED BELOW TO TESTIFY AT THE TRIAL/HEARING IN THE ABOVE CASE. 
+MISSISSIPPI COUNTY COURTHOUSE-BLYTHEVILLE ARKANSAS ON FEBRUARY 28, 2017 AT 9:00 A.M.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=12b311b7-e944-4a17-90c4-012a4923799c" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>02/01/2017<BR>09:00 AM</TD>
+<TD>SUBPOENA ISSUED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">SUBPOENA ISSUED TO GRANT BARNETT
+YOU ARE COMMANDED TO APPEAR AT THE PLACE, DATE AND TIME SPECIFIED BELOW TO TESTIFY AT THE TRIAL/HEARING IN THE ABOVE CASE. 
+MISSISSIPPI COUNTY COURTHOUSE-BLYTHEVILLE ARKANSAS ON FEBRUARY 28, 2017 AT 9:00 A.M.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=52c1a1b5-6cd5-4632-8e7f-d8c5049c251a" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>02/01/2017<BR>09:00 AM</TD>
+<TD>SUBPOENA ISSUED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">SUBPOENA ISSUED TO BRIAN BENNETT, DELL POLICE OFFICER
+YOU ARE COMMANDED TO APPEAR AT THE PLACE, DATE AND TIME SPECIFIED BELOW TO TESTIFY AT THE TRIAL/HEARING IN THE ABOVE CASE. 
+MISSISSIPPI COUNTY COURTHOUSE-BLYTHEVILLE ARKANSAS ON FEBRUARY 28, 2017 AT 9:00 A.M.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=56979688-b4e1-41af-8ea1-a7ed1031fb55" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>02/01/2017<BR>09:00 AM</TD>
+<TD>SUBPOENA ISSUED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">SUBPOENA ISSUED TO DARRYL GRISSON, GOSNELL POLICE OFFICER
+YOU ARE COMMANDED TO APPEAR AT THE PLACE, DATE AND TIME SPECIFIED BELOW TO TESTIFY AT THE TRIAL/HEARING IN THE ABOVE CASE. 
+MISSISSIPPI COUNTY COURTHOUSE-BLYTHEVILLE ARKANSAS ON FEBRUARY 28, 2017 AT 9:00 A.M.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=8d4f6ec2-d31f-4810-a789-9ba6123be4fc" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>02/10/2017<BR>09:00 AM</TD>
+<TD>NOTICE OF HEARING</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">DUE TO THE REQUEST FOR CONTINUANCE BY MS. HENRY THIS LETTER IS TO INFORM YOU OF A NEW 1/2 DAY, HEARING DATE TO BE HEARD ON MONDAY, JUNE 19, 2017, AT 9:30 A.M.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=34442211-99de-4292-a8a6-465195b02ff9" target="_blank">NOTICE</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>05/18/2017<BR>10:00 AM</TD>
+<TD>SUBPOENA ISSUED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">SUBPOENA ISSUED TO GRANT BARNETT, ORDERED TO APPEAR IN COURT JUNE 19, 2017 AT 9:00 A.M.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=820ffe7d-8d55-4b38-8e60-7315ed43d028" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>05/18/2017<BR>10:00 AM</TD>
+<TD>SUBPOENA ISSUED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">SUBPOENA ISSUED TO DARRYL GRISSON, GOSNELL OFFICER, ORDERED TO APPEAR IN COURT JUNE 19, 2017 AT 9:00 A.M.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=5ab302a4-4f9f-4a0a-8f5b-cee0fcc3c0d9" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>05/18/2017<BR>10:00 AM</TD>
+<TD>SUBPOENA ISSUED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">SUBPOENA ISSUED TO BRIAN BENNETT, DELL OFFICER, ORDERED TO APPEAR IN COURT JUNE 19, 2017 AT 9:00 A.M.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=2e467fee-d1d6-4428-91c5-fbbae0e7d407" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>05/18/2017<BR>10:00 AM</TD>
+<TD>SUBPOENA ISSUED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">SUBPOENA ISSUED TO CURT CHANDLER, WILSON POLICE DEPARTMENT, ORDERED TO APPEAR IN COURT JUNE 19, 2017 AT 9:00 A.M.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=a3210d69-716b-461e-8d6b-718b13f523a3" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>05/18/2017<BR>10:00 AM</TD>
+<TD>SUBPOENA ISSUED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">SUBPOENA ISSUED TO STEPHEN SIGMAN, BLYTHEVILLE POLICE OFFICER, ORDERED TO APPEAR IN COURT JUNE 19, 2017 AT 9:00 A.M.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=e0a9f9ad-ad92-4b46-8f14-a58cd1348574" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>05/18/2017<BR>10:00 AM</TD>
+<TD>SUBPOENA ISSUED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">SUBPOENA ISSUED TO MATTHEW HUCKABAY, BLYTHEVILLE POLICE OFFICER, ORDERED TO APPEAR IN COURT JUNE 19, 2017 AT 9:00 A.M.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=99ddb829-ab9e-4b36-add6-d826716c18ff" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>05/18/2017<BR>10:00 AM</TD>
+<TD>SUBPOENA ISSUED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">SUBPOENA ISSUED TO DUSTIN LACOTTS, BLYTHEVILLE POLICE OFFICER, ORDERED TO APPEAR IN COURT JUNE 19, 2017 AT 9:00 A.M.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=9c05542a-5088-40ae-8a8a-535096babd09" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>05/18/2017<BR>10:00 AM</TD>
+<TD>SUBPOENA ISSUED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">SUBPOENA ISSUED TO ERIC FARRELL, BLYTHEVILLE POLICE OFFICER, ORDERED TO APPEAR IN COURT JUNE 19, 2017 AT 9:00 A.M.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=763e6414-1634-4f29-915f-764f823265a6" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>05/18/2017<BR>10:00 AM</TD>
+<TD>SUBPOENA ISSUED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">SUBPOENA ISSUED TO RONNIE MCSHAN, BLYTHEVILLE POLICE OFFICER, ORDERED TO APPEAR IN COURT JUNE 19, 2017 AT 9:00 A.M.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=1221eb47-5386-4db4-aba8-6b0ee7878f1f" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>05/18/2017<BR>10:00 AM</TD>
+<TD>SUBPOENA ISSUED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">SUBPOENA ISSUED TO ROCKY RAPERT, ARKANSAS STATE TROOPER, ORDERED TO APPEAR IN COURT JUNE 19, 2017 AT 9:00 A.M.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=64a8be8b-0eb7-4d67-92a7-de60f8614a16" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>05/23/2017<BR>04:00 PM</TD>
+<TD>PETITION</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">PETITION FOR WRIT OF HABEAS CORPUS AD PROSEQUENDAM
+
+STATE OF ARKANSAS PRAYS THIS COURT ISSUE A WRIT OF HABEAS CORPUS AD PROSEUENDAM, WHICH ORDERS THE DEFENDANT BE TRANSPORTED FROM THE HEREIN FACILITY TO THE MISSISSIPPI COUNTY DETENTION CENTER; THAT HE BE HOUSED IN SAME FACILITY; AND THAT HE BE AVAILABLE FOR COURT ON THE HEREIN DATE.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=3be58f0e-e624-4c2f-b8ee-bfd13d3f487f" target="_blank">PETITION</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>05/25/2017<BR>09:00 AM</TD>
+<TD>WRIT OF HABEAS CORPUS</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">THE PRESENCE OF LASHAWN HARRIS IS NECESSARY IN THE HEARING OF THE ABOVE CAPTIONED CASE. THE APPEARANCE OF LASHAWN HARRIS WILL BE NECESSARY ON MONDAY, JUNE 19, 2017, OR THE END OF SAID HEARING. 
+
+THAT LASHAWN HARRIS BE TRANSPORTED FROM THE AFOREMENTIONED FACILITY TO THE MISSISSIPPI COUNTY DETENTION CENTER, HE BE AVAILABLE FOR THE HEREIN LISTED COURT DATE ANDHE BE HOUSED IN THE MISSISSIPPI COUNTY DETENTION CENTER IN ORDER THAT HE APPEAR ON SAID DATES. 
+IT IS SO ORDERED.</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=9cdae616-21c6-4926-879a-ca1e109c63f7" target="_blank">WRIT</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>06/08/2017<BR>10:45 AM</TD>
+<TD>SUBPOENA ISSUED</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">SUBPOENA ISSUED TO NORMAN KEMPER, CHEMIST</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=8d5cf29b-4e32-43bd-8cde-877c8f006547" target="_blank">SUBPOENA</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>07/07/2017<BR>09:00 AM</TD>
+<TD>AOC DISPOSITION SHEET</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3"><I>none.</I></TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD>No Images</TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>07/07/2017<BR>09:00 AM</TD>
+<TD>AGREED ORDER</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">AGREED ORDER AND FINAL DISPOSITION</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD><a href="http://docsdms.miscocircuit.com/Default.aspx?A=1/ck_image.present?DMS_ID=6b9ed4f6-76a0-4f4b-92ce-c02c1582c2d1" target="_blank">ORDER</a></TD>
+</TR>
+<TR>
+<TD> </TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+
+<TR VALIGN="top">
+<TD NOWRAP>07/07/2017<BR>09:00 AM</TD>
+<TD>MOD JUDGMENT/DECREE/ORDER</TD>
+<TD>&nbsp;</TD>
+<td align=right nowrap>
+&nbsp;
+</td>
+<TR>
+<TD><B>Entry:</B></TD>
+<TD ALIGN="left" COLSPAN="3">TRIAL TYPE: N</TD>
+</TR>
+<TR>
+<TD><B>Images</B></TD>
+<TD>No Images</TD>
+</TR>
+<TR>
+<TD COLSPAN="4">&nbsp;</TD>
+</TR>
+</TABLE>
+</TABLE>
+<BR>
+<BR>
+<BR>
+<BR>
+<TABLE  NOWRAP border width=100% cellspacing=1 cellpadding=4>
+</body></html>
