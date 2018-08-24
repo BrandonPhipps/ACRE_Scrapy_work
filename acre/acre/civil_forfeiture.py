@@ -90,8 +90,35 @@ class civilforfeiture2015(scrapy.Spider):
             
             
             #if caseInfo.find('<table>')
+            caseDescriptionDict = {}
             caseDescription = bleach.clean(caseInfo[2], tags=[], attributes={}, styles=[], strip=True)
+            caseDescription = caseDescription.replace('\n','')
+            caseDescription = caseDescription.replace('\xa0','')
+
+            
+            caseDescription = caseDescription.split(':')
+            caseDescription = caseDescription[1::]
+            caseDescription[0] = caseDescription[0].replace('Filing Date','')
+            caseDescription[1] = caseDescription[1].replace('Court','')
+            caseDescription[2] = caseDescription[2].replace('Location','')
+            caseDescription[3] = caseDescription[3].replace('Type','')
+            caseDescription[4] = caseDescription[4].replace('Status','')
+            caseDescription[5] = caseDescription[5].replace('Images','')
+            caseDescriptionDict['Case ID'] = caseDescription[0]
+            caseDescriptionDict['Filing Date'] = caseDescription[1]
+            caseDescriptionDict['Court'] = caseDescription[2]
+            caseDescriptionDict['Location'] = caseDescription[3]
+            caseDescriptionDict['Type'] = caseDescription[4]
+            caseDescriptionDict['Status'] = caseDescription[5]
+            caseDescriptionDict['Images'] = caseDescription[6]
+
+            
+            
             caseEventSchedule = bleach.clean(caseInfo[3], tags=[], attributes={}, styles=[], strip=True)
+            caseEventSchedule = caseEventSchedule.replace('\n','')
+            caseEventSchedule = caseEventSchedule.replace('\xa0','')
+            caseEventSchedule = caseEventSchedule.split('Event Schedule')
+            caseEventSchedule = caseEventSchedule[-1]
             
             
             casePartiesInvolved = caseInfo[4]
@@ -101,36 +128,50 @@ class civilforfeiture2015(scrapy.Spider):
             partyTitles = casePartiesInvolved[0]
             partyTitles = partyTitles.split('</th>')
             partyTitles = [bleach.clean(x, tags=[], attributes={}, styles=[], strip=True) for x in partyTitles]
-            
-            casePartiesInvolved = [casePartiesInvolved[0], casePartiesInvolved[-1]]
-            del casePartiesInvolved[2::3]
-            
+            partyTitles[0] = 'Seq #'
+            #print('first ' + str(len(casePartiesInvolved)))
+            #casePartiesInvolved = [casePartiesInvolved[0], casePartiesInvolved[-1]]
+            casePartiesInvolved = casePartiesInvolved[1:-1]
+            #del casePartiesInvolved[2::3]
+            #print('thrird ' + str(len(casePartiesInvolved)))
+
             
             
             count = 1
             parties = {}
+            list_of_parties = []
             
             while count <= len(casePartiesInvolved):
                 
-                if count%2 == 1:
+                if count%3 == 1:
                     seperateParties = casePartiesInvolved[count-1]
-                    seperateParties = seperateParties.split('</td>')
-                    seperateParties = [bleach.clean(x, tags=[], attributes={}, styles=[], strip=True) for x in seperateParties]
+                    seperateParties_list = seperateParties.split('</td>')
                     
                     
-                    parties[partyTitles[0]] = 'seperateParties[0]'
-                    parties[partyTitles[1]] = 'seperateParties[1]'
-                    parties[partyTitles[2]] = 'seperateParties[2]'
-                    parties[partyTitles[3]] = 'seperateParties[3]'
-                    parties[partyTitles[4]] = 'seperateParties[4]'
-                    parties[partyTitles[5]] = 'seperateParties[5]'
                     
-                else:
+                    
+                    parties[partyTitles[0]] = bleach.clean(seperateParties_list[0], tags=[], attributes={}, styles=[], strip=True)
+                    parties[partyTitles[1]] = bleach.clean(seperateParties_list[1], tags=[], attributes={}, styles=[], strip=True)
+                    parties[partyTitles[2]] = bleach.clean(seperateParties_list[2], tags=[], attributes={}, styles=[], strip=True)
+                    parties[partyTitles[3]] = bleach.clean(seperateParties_list[3], tags=[], attributes={}, styles=[], strip=True)
+                    parties[partyTitles[4]] = bleach.clean(seperateParties_list[4], tags=[], attributes={}, styles=[], strip=True)
+                    parties[partyTitles[5]] = bleach.clean(seperateParties_list[5], tags=[], attributes={}, styles=[], strip=True)
+                    
+                    
+                    
+                elif count%3 == 2:
                     seperateParties = casePartiesInvolved[count-1]
-                    seperateParties = seperateParties.split('</td>')
-                    alias = seperateParties[-1]
+                    seperateParties_list = seperateParties.split('</td>')
+                    alias = seperateParties_list[-2]
                     alias = bleach.clean(alias, tags=[], attributes={}, styles=[], strip=True)
                     parties['Alias'] = alias
+                    
+                
+                else:
+                    list_of_parties.append(parties)
+                    parties = {}
+                    
+                
                 
                 count = count + 1
 
@@ -138,17 +179,17 @@ class civilforfeiture2015(scrapy.Spider):
             
             #casePartiesInvolved = bleach.clean(caseInfo[4], tags=[], attributes={}, styles=[], strip=True)
 
-            caseDescription = caseDescription.replace('\n','')
-            caseEventSchedule = caseEventSchedule.replace('\n', '')
-            
-            caseDescription = caseDescription.replace('\xa0','')            
-            caseEventSchedule = caseEventSchedule.replace('\xa0','')
+#            caseDescription = [x.replace('\n','') for x in caseDescription]
+#            caseEventSchedule = [x.replace('\n','') for x in caseEventSchedule]
+#            
+#            caseDescription = [x.replace('\xa0','') for x in caseDescription]         
+#            caseEventSchedule = [x.replace('\xa0','') for x in caseEventSchedule]
              #•
             
             civil_case['URL Address'] = response.url
-            civil_case['Description'] = caseDescription            
+            civil_case['Description'] = caseDescriptionDict            
             civil_case['Event Schedule'] = caseEventSchedule
-            civil_case['Parties Involved'] = parties
+            civil_case['Parties Involved'] = list_of_parties
 
             
             
