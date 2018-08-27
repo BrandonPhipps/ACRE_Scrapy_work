@@ -55,3 +55,12 @@ civilTextfile = open("civil2015.txt", "r")
 #    for k,v in civilHash.items():
 #        print (k,v)
     
+            #casePartiesInvolved = bleach.clean(caseInfo[4], tags=[], attributes={}, styles=[], strip=True)
+
+#            caseDescription = [x.replace('\n','') for x in caseDescription]
+#            caseEventSchedule = [x.replace('\n','') for x in caseEventSchedule]
+#            
+#            caseDescription = [x.replace('\xa0','') for x in caseDescription]         
+#            caseEventSchedule = [x.replace('\xa0','') for x in caseEventSchedule]
+             #•
+                

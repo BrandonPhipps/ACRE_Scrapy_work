@@ -8,7 +8,7 @@ Created on Fri Aug 10 09:04:28 2018
 import scrapy
 import re
 import bleach
-import cleaner
+
 
 class civilforfeiture2015(scrapy.Spider):
     
@@ -113,13 +113,52 @@ class civilforfeiture2015(scrapy.Spider):
             caseDescriptionDict['Images'] = caseDescription[6]
 
             
-            
-            caseEventSchedule = bleach.clean(caseInfo[3], tags=[], attributes={}, styles=[], strip=True)
-            caseEventSchedule = caseEventSchedule.replace('\n','')
-            caseEventSchedule = caseEventSchedule.replace('\xa0','')
-            caseEventSchedule = caseEventSchedule.split('Event Schedule')
-            caseEventSchedule = caseEventSchedule[-1]
-            
+            listOfEvents = []
+            if caseInfo[3].find('No case events were found'):
+                caseEventSchedule = bleach.clean(caseInfo[3], tags=[], attributes={}, styles=[], strip=True)
+                caseEventSchedule = caseEventSchedule.replace('\n','')
+                caseEventSchedule = caseEventSchedule.replace('\xa0','')
+                caseEventSchedule = caseEventSchedule.split('Event Schedule')
+                caseEventSchedule = caseEventSchedule[-1]
+                listOfEvents.append(caseEventSchedule)
+                
+            else:
+                caseEventSchedule = caseInfo[3]
+                caseEventSchedule = caseEventSchedule.replace('\n','')
+                caseEventSchedule = caseEventSchedule.replace('\xa0','')
+                caseEventSchedule = caseEventSchedule.split('Event Schedule')
+                caseEventSchedule = caseEventSchedule[-1]
+                caseEventSchedule = caseEventSchedule.split('</tr>')
+                
+                eventTitles = caseEventSchedule[0]
+                eventTitles = eventTitles.split('</th>')
+                eventTitles = [bleach.clean(x, tags=[], attributes={}, styles=[], strip=True) for x in eventTitles]
+                eventTitles[0] = 'Event'
+                
+                caseEventSchedule = caseEventSchedule[1::]
+                
+                count = 1
+                events = {}
+                while count <= len(caseEventSchedule):
+                    
+                
+               
+                    seperateSchedule = caseEventSchedule[count-1]
+                    seperateSchedule_list = seperateSchedule.split('</td>')
+                    
+                    
+                    
+                    
+                    events[eventTitles[0]] = bleach.clean(seperateSchedule_list[0], tags=[], attributes={}, styles=[], strip=True)
+                    events[eventTitles[1]] = bleach.clean(seperateSchedule_list[1], tags=[], attributes={}, styles=[], strip=True)
+                    events[eventTitles[2]] = bleach.clean(seperateSchedule_list[2], tags=[], attributes={}, styles=[], strip=True)
+                    events[eventTitles[3]] = bleach.clean(seperateSchedule_list[3], tags=[], attributes={}, styles=[], strip=True)
+                    events[eventTitles[4]] = bleach.clean(seperateSchedule_list[4], tags=[], attributes={}, styles=[], strip=True)
+                    
+                    listOfEvents.append(events)
+                    events = {}
+                    count = count + 1
+                
             
             casePartiesInvolved = caseInfo[4]
             casePartiesInvolved = casePartiesInvolved.replace('\n','')
@@ -176,21 +215,102 @@ class civilforfeiture2015(scrapy.Spider):
                 count = count + 1
 
             
+            caseDocketEntries = caseInfo[8] 
+            caseDocketEntries = caseDocketEntries.replace('\n','')
+            caseDocketEntries = caseDocketEntries.replace('\xa0','')
+            caseDocketEntries = caseDocketEntries.split('"top">')
             
-            #casePartiesInvolved = bleach.clean(caseInfo[4], tags=[], attributes={}, styles=[], strip=True)
+            if caseDocketEntries:
+                docketTitles = caseDocketEntries[0]
+                
+                docketTitles = docketTitles.split('</th>')
+                
+                docketTitles = [bleach.clean(x, tags=[], attributes={}, styles=[], strip=True) for x in docketTitles]
+                docketTitles[0] = 'Filing Date'
+                
+                docketEntries =caseDocketEntries[1:]
+                
+                
+                count = 1
+                listOfDocketEntries = []
+                docket = {}
+               
+                while count <= len(docketEntries):
+                    
+                    seperateDocketEntries = docketEntries[count-1]
+                    seperateDocketEntries = seperateDocketEntries.split('</tr>')
+                    count_2 = 1
+                    
+                    while count_2 <= len(seperateDocketEntries):
+                        
+                        if count_2 ==1:
+                            
+                            seperateDocketEntries_list = seperateDocketEntries[count_2-1].split('</td>')
+                            seperateDocketEntries_list[0] = seperateDocketEntries_list[0].replace('<br>', ' ')
+                            
+                            
+                            
+                            
+                            docket[docketTitles[0]] = bleach.clean(seperateDocketEntries_list[0], tags=[], attributes={}, styles=[], strip=True)
+                            docket[docketTitles[1]] = bleach.clean(seperateDocketEntries_list[1], tags=[], attributes={}, styles=[], strip=True)
+                            docket[docketTitles[2]] = bleach.clean(seperateDocketEntries_list[2], tags=[], attributes={}, styles=[], strip=True)
+                            docket[docketTitles[3]] = bleach.clean(seperateDocketEntries_list[3], tags=[], attributes={}, styles=[], strip=True)
+                            
+                            
+                            
+                            count_2 += 1
+                        
+                        elif count_2 == 2:
+                            entryDocket = seperateDocketEntries[count_2-1].split('</td>')
+                            entryDocket = entryDocket[-2]
+                            matchEntry = re.search(r'<i>(.*?)</i>',entryDocket)
+                            matchEntry_2 = re.search(r'\>(.*?)[^.]*',entryDocket)
+                            if matchEntry:
+                                entryDocket = matchEntry.group(1)
+                            
+                            else:
+                                entryDocket = matchEntry_2.group(0)
+                                entryDocket = entryDocket.replace('>','')
+                            
+                            docket['Entry'] = entryDocket                      
+                            
+                            
+                            count_2 += 1
+                            
+                        elif count_2 == 3:
+                            imagesDocket = seperateDocketEntries[count_2-1].split('</td>')
+                            imagesDocket = imagesDocket[-2]
+                            match_imagesDocket = re.search(r'\"(.*?)\"',imagesDocket)
+                            if match_imagesDocket:
+                                imagesDocket = match_imagesDocket.group(1)
+                                docket['Images'] = imagesDocket
+                            else:
+                                docket['Images'] = 'None'
+                            
+                            listOfDocketEntries.append(docket)
+                            docket = {}
+                            count_2 += 1
+                        else:
+                            count_2 += 1
+                        
+                         
+                        
+                        
+                    count += 1
+                    
+                
+                
+            caseViolations =bleach.clean(caseInfo[5], tags=[], attributes={}, styles=[], strip=True)
+            caseSentence = bleach.clean(caseInfo[6], tags=[], attributes={}, styles=[], strip=True)
+            caseMilestoneTracks = bleach.clean(caseInfo[7], tags=[], attributes={}, styles=[], strip=True)
 
-#            caseDescription = [x.replace('\n','') for x in caseDescription]
-#            caseEventSchedule = [x.replace('\n','') for x in caseEventSchedule]
-#            
-#            caseDescription = [x.replace('\xa0','') for x in caseDescription]         
-#            caseEventSchedule = [x.replace('\xa0','') for x in caseEventSchedule]
-             #•
-            
             civil_case['URL Address'] = response.url
             civil_case['Description'] = caseDescriptionDict            
-            civil_case['Event Schedule'] = caseEventSchedule
+            civil_case['Event Schedule'] = listOfEvents
             civil_case['Parties Involved'] = list_of_parties
-
-            
+            civil_case['Violations'] = caseViolations
+            civil_case['Sentence'] = caseSentence
+            civil_case['Milestone Tracks'] = caseMilestoneTracks
+            civil_case['Docket Entries'] = listOfDocketEntries
             
             yield civil_case
