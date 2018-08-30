@@ -126,14 +126,14 @@ class civilforfeiture2015(scrapy.Spider):
                 caseEventSchedule = caseInfo[3]
                 caseEventSchedule = caseEventSchedule.replace('\n','')
                 caseEventSchedule = caseEventSchedule.replace('\xa0','')
-                caseEventSchedule = caseEventSchedule.split('Event Schedule')
+                caseEventSchedule = caseEventSchedule.split('<th>Ev')
                 caseEventSchedule = caseEventSchedule[-1]
                 caseEventSchedule = caseEventSchedule.split('</tr>')
                 
                 eventTitles = caseEventSchedule[0]
-                eventTitles = eventTitles.split('</th>')
-                eventTitles = [bleach.clean(x, tags=[], attributes={}, styles=[], strip=True) for x in eventTitles]
-                eventTitles[0] = 'Event'
+                eventTitles_list = eventTitles.split('</th>')
+                eventTitles_list = [bleach.clean(x, tags=[], attributes={}, styles=[], strip=True) for x in eventTitles_list]
+                eventTitles_list[0] = 'Event'
                 
                 caseEventSchedule = caseEventSchedule[1::]
                 
@@ -149,11 +149,11 @@ class civilforfeiture2015(scrapy.Spider):
                     
                     
                     
-                    events[eventTitles[0]] = bleach.clean(seperateSchedule_list[0], tags=[], attributes={}, styles=[], strip=True)
-                    events[eventTitles[1]] = bleach.clean(seperateSchedule_list[1], tags=[], attributes={}, styles=[], strip=True)
-                    events[eventTitles[2]] = bleach.clean(seperateSchedule_list[2], tags=[], attributes={}, styles=[], strip=True)
-                    events[eventTitles[3]] = bleach.clean(seperateSchedule_list[3], tags=[], attributes={}, styles=[], strip=True)
-                    events[eventTitles[4]] = bleach.clean(seperateSchedule_list[4], tags=[], attributes={}, styles=[], strip=True)
+                    events[eventTitles_list[0]] = bleach.clean(seperateSchedule_list[0], tags=[], attributes={}, styles=[], strip=True)
+                    events[eventTitles_list[1]] = bleach.clean(seperateSchedule_list[1], tags=[], attributes={}, styles=[], strip=True)
+                    events[eventTitles_list[2]] = bleach.clean(seperateSchedule_list[2], tags=[], attributes={}, styles=[], strip=True)
+                    events[eventTitles_list[3]] = bleach.clean(seperateSchedule_list[3], tags=[], attributes={}, styles=[], strip=True)
+                    events[eventTitles_list[4]] = bleach.clean(seperateSchedule_list[4], tags=[], attributes={}, styles=[], strip=True)
                     
                     listOfEvents.append(events)
                     events = {}
