@@ -300,12 +300,11 @@ class civilforfeiture2015(scrapy.Spider):
                         else:
                             count_2 += 1
                         
-                         
-                    if nameAndDateList:
-                        nameAndDateList.append(docketTitles[0])
-                        nameSearch.append(list_of_parties)
+                        
                     count += 1
                     
+                if nameAndDateList:
+                    nameAndDateList.append(docketTitles[0])
                 
                 
             caseViolations =bleach.clean(caseInfo[5], tags=[], attributes={}, styles=[], strip=True)
@@ -322,7 +321,7 @@ class civilforfeiture2015(scrapy.Spider):
             civil_case['Docket Entries'] = listOfDocketEntries
             
             yield civil_case
-            yield nameSearch
+    
             
 #process = CrawlerProcess()
 #process.crawl(civilforfeiture2015)

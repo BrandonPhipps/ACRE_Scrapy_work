@@ -11,3 +11,5 @@ once broken down need to split html, find the case ID, then search prior (and/or
 Once I've got the criminal case ID, create another spider (in a seperate parsing function) to break down the information on the criminal side.
 
 combine criminal and civil information in one dict and yield it.   
+
+scrapy runspider civil_forfeiture.py -o civil_2015.json
