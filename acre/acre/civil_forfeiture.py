@@ -6,6 +6,7 @@ Created on Fri Aug 10 09:04:28 2018
 """
 
 import scrapy
+from scrapy.crawler import CrawlerProcess
 import re
 import bleach
 
@@ -80,7 +81,7 @@ class civilforfeiture2015(scrapy.Spider):
     while i < len(civilCaseNum):
         start_urls.append('https://caseinfo.arcourts.gov/cconnect/PROD/public/ck_public_qry_doct.cp_dktrpt_docket_report?backto=P&case_id='+ civilCaseNum[i] +'&citation_no=&begin_date=&end_date=')#("https://caseinfo.arcourts.gov/cconnect/PROD/public/ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id="+ civilCaseNum[i] +"&begin_date=&end_date=" )
         i+= 1
-        
+    nameSearch = []
     def parse(self, response):
         
         caseInfo = response.css('body > font').extract_first() #response.css('table').extract_first() xpath('//a[@name="description"]').
@@ -179,6 +180,7 @@ class civilforfeiture2015(scrapy.Spider):
             count = 1
             parties = {}
             list_of_parties = []
+            nameAndDateList = []
             
             while count <= len(casePartiesInvolved):
                 
@@ -195,6 +197,11 @@ class civilforfeiture2015(scrapy.Spider):
                     parties[partyTitles[3]] = bleach.clean(seperateParties_list[3], tags=[], attributes={}, styles=[], strip=True)
                     parties[partyTitles[4]] = bleach.clean(seperateParties_list[4], tags=[], attributes={}, styles=[], strip=True)
                     parties[partyTitles[5]] = bleach.clean(seperateParties_list[5], tags=[], attributes={}, styles=[], strip=True)
+                    
+                    if parties[partyTitles[3]] == 'CLAIMANT':
+                        name = parties[partyTitles[5]]
+                        nameAndDateList.append(name)
+                        
                     
                     
                     
@@ -274,28 +281,29 @@ class civilforfeiture2015(scrapy.Spider):
                             
                             docket['Entry'] = entryDocket                      
                             
-                            
-                            count_2 += 1
-                            
-                        elif count_2 == 3:
-                            imagesDocket = seperateDocketEntries[count_2-1].split('</td>')
-                            imagesDocket = imagesDocket[-2]
-                            match_imagesDocket = re.search(r'\"(.*?)\"',imagesDocket)
-                            if match_imagesDocket:
-                                imagesDocket = match_imagesDocket.group(1)
-                                docket['Images'] = imagesDocket
-                            else:
-                                docket['Images'] = 'None'
-                            
                             listOfDocketEntries.append(docket)
                             docket = {}
                             count_2 += 1
+                            
+#                        elif count_2 == 3:
+#                            imagesDocket = seperateDocketEntries[count_2-1].split('</td>')
+#                            imagesDocket = imagesDocket[-2]
+#                            match_imagesDocket = re.search(r'\"(.*?)\"',imagesDocket)
+#                            if match_imagesDocket:
+#                                imagesDocket = match_imagesDocket.group(1)
+#                                docket['Images'] = imagesDocket
+#                            else:
+#                                docket['Images'] = 'None'
+#                            
+#                            
+#                            count_2 += 1
                         else:
                             count_2 += 1
                         
                          
-                        
-                        
+                    if nameAndDateList:
+                        nameAndDateList.append(docketTitles[0])
+                        nameSearch.append(list_of_parties)
                     count += 1
                     
                 
@@ -314,3 +322,9 @@ class civilforfeiture2015(scrapy.Spider):
             civil_case['Docket Entries'] = listOfDocketEntries
             
             yield civil_case
+            yield nameSearch
+            
+#process = CrawlerProcess()
+#process.crawl(civilforfeiture2015)
+#process.crawl(MySpider2)
+#process.start() 

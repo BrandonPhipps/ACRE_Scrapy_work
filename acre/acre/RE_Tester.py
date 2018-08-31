@@ -14,7 +14,7 @@ with open('civil2015.txt') as f:
 
 
 count = 0
-
+listOfNames = []
 
 allCaseInfo ={}
 for line in content:
@@ -285,6 +285,177 @@ for line in content:
         elif names_6:
             allCaseInfo[names_6.group(1)] = dateAndCaseNum
             
+            
+            
+            
+            
+    if names_1:
+        name = names_1.group(1)
+        
+        if name.find('ET AL') >= 0:
+            name = re.sub('ET AL', '', name)   
+            name = name.strip()
+            allCaseInfo[name] = allCaseInfo.pop(names_1.group(1))
+            
+            
+            
+        elif name.find('ETAL') >= 0:
+            name = re.sub('ETAL', '', name)
+            name = name.strip()
+            allCaseInfo[name] = allCaseInfo.pop(names_1.group(1))
+            
+        if name.find('CLAIMANTS') >= 0: 
+            oldName = name
+            name = re.sub('CLAIMANTS', '', name)   
+            name = name.strip()
+            allCaseInfo[name] = allCaseInfo.pop(oldName)
+            
+        elif name.find('CLAIMANT') >= 0: 
+            oldName = name
+            name = re.sub('CLAIMANT', '', name)
+            name = name.strip()            
+            allCaseInfo[name] = allCaseInfo.pop(oldName)
+            
+    elif names_2:
+        name = names_2.group(1)
+        
+        if name.find('ET AL') >= 0:
+            name = re.sub('ET AL', '', name)   
+            name = name.strip()
+            allCaseInfo[name] = allCaseInfo.pop(names_2.group(1))
+            
+            
+            
+        elif name.find('ETAL') >= 0:
+            name = re.sub('ETAL', '', name)
+            name = name.strip()
+            allCaseInfo[name] = allCaseInfo.pop(names_2.group(1))
+            
+        if name.find('CLAIMANTS') >= 0: 
+            oldName = name
+            name = re.sub('CLAIMANTS', '', name)   
+            name = name.strip()
+            allCaseInfo[name] = allCaseInfo.pop(oldName)
+            
+        elif name.find('CLAIMANT') >= 0: 
+            oldName = name
+            name = re.sub('CLAIMANT', '', name)
+            name = name.strip()            
+            allCaseInfo[name] = allCaseInfo.pop(oldName)
+            
+       
+        
+    elif names_3:
+        name = names_3.group(1)
+        
+        if name.find('ET AL') >= 0:
+            name = re.sub('ET AL', '', name)   
+            name = name.strip()
+            allCaseInfo[name] = allCaseInfo.pop(names_3.group(1))
+            
+            
+            
+        elif name.find('ETAL') >= 0:
+            name = re.sub('ETAL', '', name)
+            name = name.strip()
+            allCaseInfo[name] = allCaseInfo.pop(names_3.group(1))
+            
+        if name.find('CLAIMANTS') >= 0: 
+            oldName = name
+            name = re.sub('CLAIMANTS', '', name)   
+            name = name.strip()
+            allCaseInfo[name] = allCaseInfo.pop(oldName)
+            
+        elif name.find('CLAIMANT') >= 0: 
+            oldName = name
+            name = re.sub('CLAIMANT', '', name)
+            name = name.strip()            
+            allCaseInfo[name] = allCaseInfo.pop(oldName)
+            
+        
+    elif names_4:
+        name = names_4.group(1)
+        
+        if name.find('ET AL') >= 0:
+            name = re.sub('ET AL', '', name)   
+            name = name.strip()
+            allCaseInfo[name] = allCaseInfo.pop(names_4.group(1))
+            
+            
+            
+        elif name.find('ETAL') >= 0:
+            name = re.sub('ETAL', '', name)
+            name = name.strip()
+            allCaseInfo[name] = allCaseInfo.pop(names_4.group(1))
+            
+        if name.find('CLAIMANTS') >= 0: 
+            oldName = name
+            name = re.sub('CLAIMANTS', '', name)   
+            name = name.strip()
+            allCaseInfo[name] = allCaseInfo.pop(oldName)
+            
+        elif name.find('CLAIMANT') >= 0: 
+            oldName = name
+            name = re.sub('CLAIMANT', '', name)
+            name = name.strip()            
+            allCaseInfo[name] = allCaseInfo.pop(oldName)
+            
+    elif names_5:
+        name = names_5.group(1)
+        
+        if name.find('ET AL') >= 0:
+            name = re.sub('ET AL', '', name)   
+            name = name.strip()
+            allCaseInfo[name] = allCaseInfo.pop(names_5.group(1))
+            
+            
+            
+        elif name.find('ETAL') >= 0:
+            name = re.sub('ETAL', '', name)
+            name = name.strip()
+            allCaseInfo[name] = allCaseInfo.pop(names_5.group(1))
+            
+        if name.find('CLAIMANTS') >= 0: 
+            oldName = name
+            name = re.sub('CLAIMANTS', '', name)   
+            name = name.strip()
+            allCaseInfo[name] = allCaseInfo.pop(oldName)
+            
+        elif name.find('CLAIMANT') >= 0: 
+            oldName = name
+            name = re.sub('CLAIMANT', '', name)
+            name = name.strip()            
+            allCaseInfo[name] = allCaseInfo.pop(oldName)
+            
+
+    elif names_6:
+        name = names_6.group(1)
+        
+        if name.find('ET AL') >= 0:
+            name = re.sub('ET AL', '', name)   
+            name = name.strip()
+            allCaseInfo[name] = allCaseInfo.pop(names_6.group(1))
+            
+            
+            
+        elif name.find('ETAL') >= 0:
+            name = re.sub('ETAL', '', name)
+            name = name.strip()
+            allCaseInfo[name] = allCaseInfo.pop(names_6.group(1))
+            
+        if name.find('CLAIMANTS') >= 0: 
+            oldName = name
+            name = re.sub('CLAIMANTS', '', name)   
+            name = name.strip()
+            allCaseInfo[name] = allCaseInfo.pop(oldName)
+            
+        elif name.find('CLAIMANT') >= 0: 
+            oldName = name
+            name = re.sub('CLAIMANT', '', name)
+            name = name.strip()            
+            allCaseInfo[name] = allCaseInfo.pop(oldName)
+            
+
     count += 1
 
             

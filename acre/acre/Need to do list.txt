@@ -1,0 +1,13 @@
+view-source:https://caseinfo.arcourts.gov/cconnect/PROD/public/ck_public_qry_cpty.cp_personcase_srch_details?backto=P&soundex_ind=&aka_ind=&partial_ind=&last_name=SUDDERTH&first_name=CHAD&middle_name=&dl_number=&dob=&begin_date=&end_date=&judge_id=&judge_status=&case_type=ALL&person_type=ALL&county_code=&locn_code=ALL&id_code=&PageNo=1
+
+Finish returning the list of claimant names and the date and the case ID
+
+Create new function that will follow a link (that I will have to build). Should send me to the name search page (above link)
+
+Need to build another spider (in a seperate parsing function) to break down html on search page.
+
+once broken down need to split html, find the case ID, then search prior (and/or future) dates for a CR case ID/s.
+
+Once I've got the criminal case ID, create another spider (in a seperate parsing function) to break down the information on the criminal side.
+
+combine criminal and civil information in one dict and yield it.   
