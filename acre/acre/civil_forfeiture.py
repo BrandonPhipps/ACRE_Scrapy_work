@@ -6,7 +6,7 @@ Created on Fri Aug 10 09:04:28 2018
 """
 
 import scrapy
-from scrapy.crawler import CrawlerProcess
+#from scrapy.crawler import CrawlerProcess
 import re
 import bleach
 
@@ -180,7 +180,7 @@ class civilforfeiture2015(scrapy.Spider):
             count = 1
             parties = {}
             list_of_parties = []
-            nameAndDateList = []
+            claimant_names = []
             
             while count <= len(casePartiesInvolved):
                 
@@ -199,8 +199,27 @@ class civilforfeiture2015(scrapy.Spider):
                     parties[partyTitles[5]] = bleach.clean(seperateParties_list[5], tags=[], attributes={}, styles=[], strip=True)
                     
                     if parties[partyTitles[3]] == 'CLAIMANT':
+                        firstAndLastList = []
                         name = parties[partyTitles[5]]
-                        nameAndDateList.append(name)
+                        if name:
+                            firstAndLast = name.split(',')
+                            last = firstAndLast[0].strip()
+                            first = firstAndLast[1].strip()
+                            match_first = re.search('[A-Z]+\s+([A-Z])+', first)
+                            if match_first:
+                                first_split = first.split()
+                                first = first_split[0].strip()
+                                
+                            match_last = re.search('[A-Z]+\s+([A-Z])+', last)
+                            if match_last:
+                                last_split = last.split()
+                                last = last_split[0].strip()
+                                
+                            firstAndLastList[0] = last
+                            firstAndLastList[1] = first
+                                
+                        
+                        claimant_names.append(firstAndLastList)
                         
                     
                     
@@ -241,7 +260,7 @@ class civilforfeiture2015(scrapy.Spider):
                 count = 1
                 listOfDocketEntries = []
                 docket = {}
-               
+               date = ''
                 while count <= len(docketEntries):
                     
                     seperateDocketEntries = docketEntries[count-1]
@@ -263,6 +282,60 @@ class civilforfeiture2015(scrapy.Spider):
                             docket[docketTitles[2]] = bleach.clean(seperateDocketEntries_list[2], tags=[], attributes={}, styles=[], strip=True)
                             docket[docketTitles[3]] = bleach.clean(seperateDocketEntries_list[3], tags=[], attributes={}, styles=[], strip=True)
                             
+                            if (date == '') and (len(claimant_names) > 0):
+                                match_date = re.search('(\d+/\d+/\d+)\s+')
+                                if match_date:
+                                    date = match_date.group(1)
+                                    date_split = date.split('/')
+                                    if date_split[0] == '01':
+                                        date_split[0] = 'JAN'
+                                        
+                                    elif date_split[0] == '02':
+                                        date_split[0] = 'FEB'
+                                        
+                                    elif date_split[0] == '03':
+                                        date_split[0] = 'MAR'
+                                        
+                                    elif date_split[0] == '04':
+                                        date_split[0] = 'APR'
+                                        
+                                    elif date_split[0] == '05':
+                                        date_split[0] = 'MAY'
+                                        
+                                    elif date_split[0] == '06':
+                                        date_split[0] = 'JUN'
+                                        
+                                    elif date_split[0] == '07':
+                                        date_split[0] = 'JUL'
+                                        
+                                    elif date_split[0] == '08':
+                                        date_split[0] = 'AUG'
+                                        
+                                    elif date_split[0] == '09':
+                                        date_split[0] = 'SEP'
+                                        
+                                    elif date_split[0] == '10':
+                                        date_split[0] = 'OCT'
+                                        
+                                    elif date_split[0] == '11':
+                                        date_split[0] = 'NOV'
+                                        
+                                    elif date_split[0] == '12':
+                                        date_split[0] = 'DEC'
+                                        
+                                    date = date_split[1] + '-' +date_split[0] + '-' + date_split[2]
+                                    claimants = 0
+                                    while claimants < len(claimant_names):
+                                        urls = []
+                                        url = 'view-source:https://caseinfo.arcourts.gov/cconnect/PROD/public/ck_public_qry_cpty.cp_personcase_srch_details?backto=P&soundex_ind=&aka_ind=&partial_ind=&last_name='+claimant_names[count][0]+'&first_name='+claimant_names[count][1]+'&middle_name=&dl_number=&dob=&begin_date=&end_date=&judge_id=&judge_status=&case_type=ALL&person_type=ALL&county_code=&locn_code=ALL&id_code=&PageNo=1'
+                                        urls.append(url)
+                                        for claimants in urls:
+                                            yield response.follow(claimants, self.parse_SearchResults)
+                                            
+                                        claimants += 1
+                                        
+                                response.follow()
+                                    
                             
                             
                             count_2 += 1
@@ -321,9 +394,10 @@ class civilforfeiture2015(scrapy.Spider):
             civil_case['Docket Entries'] = listOfDocketEntries
             
             yield civil_case
-    
-            
-#process = CrawlerProcess()
-#process.crawl(civilforfeiture2015)
-#process.crawl(MySpider2)
-#process.start() 
+    def parse_SearchResults(self, response):
+        
+        
+        
+        
+    def parse_Criminal(self, response):
+        
