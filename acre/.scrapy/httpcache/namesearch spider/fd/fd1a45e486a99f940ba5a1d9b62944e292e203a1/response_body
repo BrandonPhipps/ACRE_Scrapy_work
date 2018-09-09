@@ -1,0 +1,205 @@
+<HTML>
+<HEAD>
+<TITLE>Big</TITLE>
+<base target="_top">
+<SCRIPT TYPE="text/javascript" LANGUAGE="javascript">
+
+<!-- PreLoad Wait - Script -->
+<!-- This script and more from http://www.rainbow.arch.scriptmania.com 
+
+function waitPreloadPage() { //DOM
+if (document.getElementById){
+document.getElementById('prepage').style.visibility='hidden';
+}else{
+if (document.layers){ //NS4
+document.prepage.visibility = 'hidden';
+}
+else { //IE4
+document.all.prepage.style.visibility = 'hidden';
+}
+}
+}
+// End -->
+</SCRIPT>
+<script language = "JavaScript"> 
+         <!--// Hide from old browsers 
+         // Detect browser type and version 
+         // 
+         var browserName = navigator.appName; 
+         var browserVer = parseInt( navigator.appVersion ); 
+         var version = ""; 
+ 
+         if ( browserName == "Netscape"  >= 3 ) 
+            version = "n3"; 
+         else if ( browserName == "Netscape"  == 2 ) 
+            version = "n2"; 
+         else if ( browserName == "Microsoft Internet Explorer" &&browserVer >= 4 ) 
+            version = "e4"; 
+         else if ( browserName == "Microsoft Internet Explorer" &&browserVer >= 2 ) 
+            version = "e2"; 
+         else 
+            version = "other"; 
+         // 
+         // Rollover images and functions 
+         // 
+         if ( version == "n3" || version == "e4" ) { 
+            menu1on = new Image (89, 197); 
+            menu1on.src="/images/srchome1.gif"; 
+            menu2on = new Image (89, 197); 
+            menu2on.src="/images/newsrc1.gif"; 
+            menu3on = new Image (89, 197); 
+            menu3on.src="/images/rptsel1.gif"; 
+            menu4on = new Image (89, 197); 
+            menu4on.src="/images/casedes1.gif"; 
+            menu5on = new Image (89, 197); 
+            menu5on.src="/images/relcase1.gif"; 
+            menu6on = new Image (89, 197); 
+            menu6on.src="/images/evntsch1.gif"; 
+            menu7on = new Image (89, 197); 
+            menu7on.src="/images/cparty1.gif"; 
+            menu8on = new Image (89, 197); 
+            menu8on.src="/images/dockent1.gif"; 
+            menu9on = new Image (89, 197); 
+            menu9on.src="/images/violent1.GIF"; 
+            menu10on = new Image (89, 197); 
+            menu10on.src="/images/warrant1.gif"; 
+            menu11on = new Image (89, 197); 
+            menu11on.src="/images/financial1.gif"; 
+            menu12on = new Image (89, 197); 
+            menu12on.src="/images/sentence1.gif"; 
+            menu13on = new Image (89, 197); 
+            menu13on.src="/images/crossreference1.gif"; 
+            menu14on = new Image (89, 197); 
+            menu14on.src="/images/milestone1.gif"; 
+            menu15on = new Image (89, 197); 
+            menu15on.src="/images/casejacket1.gif"; 
+             
+             
+ 
+            menu1off = new Image (89, 197); 
+            menu1off.src="/images/srchome0.gif"; 
+            menu2off = new Image (89, 197); 
+            menu2off.src="/images/newsrc0.gif"; 
+            menu3off = new Image (89, 197); 
+            menu3off.src="/images/rptsel0.gif"; 
+            menu4off = new Image (89, 197); 
+            menu4off.src="/images/casedes0.gif"; 
+            menu5off = new Image (89, 197); 
+            menu5off.src="/images/relcase0.gif"; 
+            menu6off = new Image (89, 197); 
+            menu6off.src="/images/evntsch0.gif"; 
+            menu7off = new Image (89, 197); 
+            menu7off.src="/images/cparty0.gif"; 
+            menu8off = new Image (89, 197); 
+            menu8off.src="/images/dockent0.gif"; 
+            menu9off = new Image (89, 197); 
+            menu9off.src="/images/violent0.gif"; 
+            menu10off = new Image (89, 197); 
+            menu10off.src="/images/warrant0.gif"; 
+            menu11off = new Image (89, 197); 
+            menu11off.src="/images/financial0.gif"; 
+            menu12off = new Image (89, 197); 
+            menu12off.src="/images/sentence0.gif"; 
+            menu13off = new Image (89, 197); 
+            menu13off.src="/images/crossreference0.gif"; 
+            menu14off = new Image (89, 197); 
+            menu14off.src="/images/milestone0.gif"; 
+            menu15off = new Image (89, 197); 
+            menu15off.src="/images/casejacket0.gif"; 
+             
+         } 
+ 
+         function img_act(imgName) { 
+            if (document.images != null) { 
+              if ( version == "n3" || version == "e4") 
+              { 
+                imgOn = eval(imgName + "on.src"); 
+                document [imgName].src = imgOn; 
+              } 
+            } 
+         } 
+ 
+         function img_inact(imgName) { 
+            if (document.images != null) { 
+              if ( version == "n3" || version == "e4") 
+              { 
+                 imgOn = eval(imgName + "off.src"); 
+                 document [imgName].src = imgOn; 
+              } 
+            } 
+         } 
+         //--> 
+         </script> 
+      
+</HEAD>
+<FONT FACE="Arial" SIZE="2">
+<BODY BACKGROUND="/images/whitenod.gif">
+<A HREF="ck_public_qry_cpty.cp_personcase_setup_idx" onmouseover = "img_act('menu2')"  onmouseout = "img_inact('menu2')"" TARGET="_top"><IMG SRC="/images/newsrc0.gif" ALT="New Search" border="0" name="menu2"></A>
+<BR>
+<TABLE >
+<TR ALIGN="left">
+<TD><B>Phonetic Search:</B></TD>
+<TD>off&nbsp;&nbsp;</TD>
+<TD><B>Last Name:</B></TD>
+<TD>VASQUEZ&nbsp;&nbsp;</TD>
+<TD><B>First Name:</B></TD>
+<TD>STEPHANIE&nbsp;&nbsp;</TD>
+</TR>
+</TABLE>
+<TABLE  border>
+<TR ALIGN="left">
+<TH>ID</TH>
+<TH>Names/Corporation</TH>
+<TH>Case Description</TH>
+<TH>Party Type</TH>
+<TH>Filing Date</TH>
+<TH>Judge</TH>
+</TR>
+<TR ALIGN="left">
+<TD NOWRAP>13786989<br></TD>
+<TD>STEPHANIE VASQUEZ<br><b>Aliases:</b> ,VASQUEZ, STEPHANIE</TD>
+<TD><B>Case:</B>&nbsp;&nbsp;<I><A HREF="ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=43CV-15-469&begin_date=&end_date=">43CV-15-469</A>&nbsp;&nbsp;STATE V S VASQUEZ & Y SANCHEZ ET AL<br><b>Status:</b>CLOSED</I></TD>
+<TD NOWRAP>CLAIMANT</TD>
+<TD NOWRAP>10-SEP-15</TD>
+<TD>, 23RD CIRCUIT DIVISION 1</TD>
+</TR>
+<TR ALIGN="left">
+<TD NOWRAP>13732321<br></TD>
+<TD>STEPHANIE VASQUEZ<br><b>Aliases:</b> ,VASQUEZ, STEPHANIE LYNN</TD>
+<TD><B>Case:</B>&nbsp;&nbsp;<I><A HREF="ck_public_qry_doct.cp_dktrpt_frames?backto=P&case_id=43CR-15-336&begin_date=&end_date=">43CR-15-336</A>&nbsp;&nbsp;STATE V STEPHANIE LYNN VASQUEZ<br><b>Status:</b>CLOSED</I></TD>
+<TD NOWRAP>DEFENDANT</TD>
+<TD NOWRAP>23-JUL-15</TD>
+<TD>, 23RD CIRCUIT DIVISION 3</TD>
+</TR>
+</TABLE>
+<BR>
+<TABLE >
+<TR ALIGN="left">
+<TD><B>Page:</B></TD>
+<TD>1&nbsp;&nbsp;</TD>
+<TD><B>Records:</B>&nbsp;</TD>
+<TD>           1</TD>
+<TD>&nbsp;-&nbsp;</TD>
+<TD>           2&nbsp;&nbsp;</TD>
+</TR>
+</TABLE>
+</FONT>
+<BR>
+<CENTER>
+<IMG SRC="/images/blueline.gif">
+<CENTER>
+<TABLE >
+<TR>
+<TD ALIGN="center" WIDTH="1"><A HREF="ck_public_qry_main.cp_main_idx"><IMG SRC="/images/Home.png" ALT="Return to Search Home" border="0"></A></TD>
+<TD>&nbsp</TD>
+<TD ALIGN="center" WIDTH="1"><A HREF="/docs/helppublic.htm"><IMG SRC="/images/Help.png" ALT="Search Help" border="0"></A></TD>
+</TR>
+</TABLE>
+</CENTER>
+<BR>
+</FONT>
+<FONT FACE="Arial Narrow" SIZE="2">
+&copy 2017 Conduent Business Services, LLC. All rights reserved. Conduent and Conduent Agile Star are trademarks of Conduent Business Services, LLC in the United States and/or other countries.<br> This material contains trade secrets and other confidential information and is subject to a confidentiality agreement. The unauthorized use, reproduction, distribution,<br> display, or disclosure of this material or the information contained herein is prohibited.User Accepts/Agrees to <A HREF="/docs/disclaim.htm">Disclaimer</A>. Not for official use. Branding # BR1041
+</CENTER>
+</BODY>
+</HTML>

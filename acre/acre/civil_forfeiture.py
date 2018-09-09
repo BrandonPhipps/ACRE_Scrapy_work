@@ -327,7 +327,7 @@ class civilforfeiture2015(scrapy.Spider):
                                     claimants = 0
                                     while claimants < len(claimant_names):
                                         urls = []
-                                        url = 'view-source:https://caseinfo.arcourts.gov/cconnect/PROD/public/ck_public_qry_cpty.cp_personcase_srch_details?backto=P&soundex_ind=&aka_ind=&partial_ind=&last_name='+claimant_names[count][0]+'&first_name='+claimant_names[count][1]+'&middle_name=&dl_number=&dob=&begin_date=&end_date=&judge_id=&judge_status=&case_type=ALL&person_type=ALL&county_code=&locn_code=ALL&id_code=&PageNo=1'
+                                        url ='https://caseinfo.arcourts.gov/cconnect/PROD/public/ck_public_qry_cpty.cp_personcase_srch_details?backto=P&soundex_ind=&aka_ind=&partial_ind=&last_name='+claimant_names[count][0]+'&first_name='+claimant_names[count][1]+'&middle_name=&dl_number=&dob=&begin_date=&end_date=&judge_id=&judge_status=&case_type=ALL&person_type=ALL&county_code=&locn_code=ALL&id_code=&PageNo=1'
                                         urls.append(url)
                                         for claimants in urls:
                                             yield response.follow(claimants, self.parse_SearchResults)
