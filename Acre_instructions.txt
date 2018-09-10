@@ -1,0 +1,8 @@
+hit each page 1 by 1 
+extract data and store name and date in two lists
+yield data, 
+
+
+hit criminal files by date (should have them stored in text)
+find name
+find records

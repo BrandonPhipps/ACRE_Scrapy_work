@@ -24,6 +24,7 @@ class testing(scrapy.Spider):
     start_urls =['https://caseinfo.arcourts.gov/cconnect/PROD/public/ck_public_qry_cpty.cp_personcase_srch_details?backto=P&soundex_ind=&aka_ind=&partial_ind=&last_name=VASQUEZ&first_name=STEPHANIE&middle_name=&dl_number=&dob=&begin_date=&end_date=&judge_id=&judge_status=&case_type=ALL&person_type=ALL&county_code=&locn_code=ALL&id_code=&PageNo=1']
     caseNumCV = '43CV-15-469'
     caseNumCR = ''
+    criminalCases = []
     def parse(self, response):
         html = response.css('body > font').extract_first()
         
@@ -33,39 +34,51 @@ class testing(scrapy.Spider):
 #            info_needed = tables.split('</HEAD>')
 #            tables = info_needed[1]
             case_list = tables.split('</tr>')
-            case_list = case_list[2:-2]
-            
+            case_list = case_list[2:-2]   #if it's size is 0 after this then 
+            #print('size ' + str(len(case_list)))
             #string = '****DELIMITER****'.join(case_list)
             case_counter = 0
             tester = False
             subOfCV = -2
             while case_counter < len(case_list):
-                new_case = case_list[case_counter].split('<td>')
-                count = 0
-                while count < len(new_case):
-                    matchCR = re.search(r">(\d+[A-Z]*CR-\d+-\d+)<", new_case[count])
-                    matchCV = re.search(r">(\d+[A-Z]*CV-\d+-\d+)<", new_case[count])
+#                new_case = case_list[case_counter].split('<td>')
+#                count = 0
+#                while count < len(new_case):
+                    
+                    matchCV = re.search(r">(\d+[A-Z]*CV-\d+-\d+)<", case_list[case_counter])
                     if matchCV:               
                         if self.caseNumCV == matchCV.group(1):
-                            tester = True
-                            subOfCV = case_counter
-                            count += 1
-                            break
-                    
-                    if (tester == True) and (case_counter == (subOfCV+1)):
-                        if matchCR:
-                            self.caseNumCR = matchCR.group(1)
-                            search['Civil'] = self.caseNumCV
-                            search['Criminal'] = self.caseNumCR
-                            yield(search)
-                    
+                            if len(case_list) > 1:
+                                tester = True
+                                subOfCV = case_counter
+                                #count += 1
+                                                   
+                                
+                                    
+                                    
+                                if (case_counter == 0):
+                                    matchCR = re.search(r">(\d+[A-Z]*CR-\d+-\d+)<", case_list[case_counter+1])
+                                    
+                                elif (case_counter+1 == 20):
+                                    matchCR = re.search(r">(\d+[A-Z]*CR-\d+-\d+)<", case_list[case_counter-1])                                    
+                                    if matchCR:
+                                        self.caseNumCR = matchCR.group(1)
+                                        search['Civil'] = self.caseNumCV
+                                        search['Criminal'] = self.caseNumCR
+                                        yield(search)
+                                        
+                            else:
+                                search['Name'] = '' 
+                                search['Civil'] = self.caseNumCV 
+                                search['Criminal'] = 'No criminal case exists'
+                    #if (tester == True) and (case_counter == (subOfCV)) and (len(case_list) >= (case_counter +1)):
             
                     
                     
                     
                     
-                    count += 1
-                case_counter += 1
+                    #count += 1
+                    case_counter += 1
                     
                     
 #            case_list = [bleach.clean(x, tags=[], attributes={}, styles=[], strip=True) for x in case_list]
